@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>anticipate</string>
+	<string>aurora</string>
+	<string>bamboo</string>
+	<string>calypso</string>
+	<string>chord</string>
+	<string>circles</string>
+	<string>complete</string>
+	<string>hello</string>
+	<string>input</string>
+	<string>keys</string>
+	<string>ladder</string>
+	<string>note</string>
+	<string>popcorn</string>
+	<string>pulse</string>
+	<string>suspense</string>
+	<string>telegraph</string>
+	<string>tiptoes</string>
+	<string>update</string>
+	<string>synth</string>
+</array>
+</plist>

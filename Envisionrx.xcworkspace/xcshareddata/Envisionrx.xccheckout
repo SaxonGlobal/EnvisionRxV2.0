@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7A1643CA-39FB-4A00-A08A-0729474BFDA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Envisionrx</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8B88D1629BE586317924F665DDBED7C9039C60D</key>
+		<string>https://github.com/mobomo/engage-envision-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Envisionrx.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8B88D1629BE586317924F665DDBED7C9039C60D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mobomo/engage-envision-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8B88D1629BE586317924F665DDBED7C9039C60D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8B88D1629BE586317924F665DDBED7C9039C60D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EnvisionRx</string>
+		</dict>
+	</array>
+</dict>
+</plist>

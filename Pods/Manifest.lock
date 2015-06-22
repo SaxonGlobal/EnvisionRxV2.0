@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMSlideMenu (1.5.3)
+  - Bugsnag (4.0.1):
+    - Bugsnag/no-arc
+  - Bugsnag/no-arc (4.0.1)
+  - DTCoreText (1.6.14):
+    - DTFoundation/Core (~> 1.7.1)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.1)
+    - DTFoundation/DTHTMLParser (~> 1.7.1)
+    - DTFoundation/UIKit (~> 1.7.1)
+  - DTFoundation/Core (1.7.4)
+  - DTFoundation/DTAnimatedGIF (1.7.4)
+  - DTFoundation/DTHTMLParser (1.7.4):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.4):
+    - DTFoundation/Core
+  - EncryptedCoreData (3.0):
+    - SQLCipher (~> 3.1.0)
+  - KissXML (5.0)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AMSlideMenu (~> 1.5.3)
+  - Bugsnag
+  - DTCoreText (~> 1.6.11)
+  - EncryptedCoreData (from `https://github.com/project-imas/encrypted-core-data.git`)
+  - KissXML (~> 5.0)
+
+EXTERNAL SOURCES:
+  EncryptedCoreData:
+    :git: https://github.com/project-imas/encrypted-core-data.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  AMSlideMenu: ab0c9313c74eac61e360d2a714d2d8202f6de916
+  Bugsnag: 140617d400ec3fdc45d7afe79065d5bb8a37ad7e
+  DTCoreText: 1fc0aadfa238d14c6cc56035af4e2b76b958e3b1
+  DTFoundation: 721a63964fb9acd64cb8c9d3d1642ee60bac3d6a
+  EncryptedCoreData: a52183de3620d305b78b8c8a3b323ebf7adf76a5
+  KissXML: e537c38b18ede903ee6de45953a9bd86c131ebe9
+  SQLCipher: 981110217eb93c2779c34fb59e646a1c1da918d8
+
+COCOAPODS: 0.34.4

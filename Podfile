@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
+pod 'AFNetworking', '~> 2.0'
+pod 'AMSlideMenu', '~> 1.5.3'
+pod 'KissXML', '~> 5.0'
+pod 'Bugsnag'
+pod 'DTCoreText', '~> 1.6.11'

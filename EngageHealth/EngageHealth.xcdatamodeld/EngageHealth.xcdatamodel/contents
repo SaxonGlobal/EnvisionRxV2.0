@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AlternateDrug" representedClassName="AlternateDrug" syncable="YES">
+        <attribute name="copay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errorMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="savings" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="claim" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Claims" inverseName="alternateDrug" inverseEntity="Claims" syncable="YES"/>
+    </entity>
+    <entity name="Claims" representedClassName="Claims" syncable="YES">
+        <attribute name="daysSupply" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fillDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="memberPaid" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pharmacyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planPaid" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="prescriberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prescriberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="renewalDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="renewalDays" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="rxNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPaid" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="alternateDrug" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AlternateDrug" inverseName="claim" inverseEntity="AlternateDrug" syncable="YES"/>
+        <relationship name="drug" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Drugs" inverseName="claim" inverseEntity="Drugs" syncable="YES"/>
+        <relationship name="pharmacy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pharmacy" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="claim" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Drugs" representedClassName="Drugs" syncable="YES">
+        <attribute name="gpi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="multisource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otc" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="proddescabbrev" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strength" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="claim" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Claims" inverseName="drug" inverseEntity="Claims" syncable="YES"/>
+    </entity>
+    <entity name="Faq" representedClassName="Faq" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="faq" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Pharmacy" representedClassName="Pharmacy" syncable="YES">
+        <attribute name="affiliationCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispClass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nabp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thuHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tueHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vaccNetwork" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wedHrs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="accountId" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carrier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chainCode" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="houseHoldFlag" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mailOrderId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mailOrderNABP" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="memberHelp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pcn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pharmacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pharmacyHelp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pharmacyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="relationId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sso" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="zipCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="claim" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Claims" inverseName="user" inverseEntity="Claims" syncable="YES"/>
+        <relationship name="faq" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Faq" inverseName="user" inverseEntity="Faq" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AlternateDrug" positionX="-792" positionY="-234" width="128" height="150"/>
+        <element name="Claims" positionX="-785" positionY="-261" width="128" height="283"/>
+        <element name="Drugs" positionX="-551" positionY="-342" width="128" height="148"/>
+        <element name="Faq" positionX="-792" positionY="-234" width="128" height="103"/>
+        <element name="Pharmacy" positionX="-792" positionY="-234" width="128" height="28"/>
+        <element name="User" positionX="-992" positionY="-378" width="128" height="523"/>
+    </elements>
+</model>

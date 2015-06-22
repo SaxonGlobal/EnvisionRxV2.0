@@ -1,0 +1,1923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7F218180294B32A5A617CE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BE5F89A77F484998375CF9 /* libPods.a */; };
+		590CF6191999FD1B00107E29 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CF6181999FD1B00107E29 /* LoginViewController.m */; };
+		592435F3197E7BEE001A03BB /* EHHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435ED197E7BEE001A03BB /* EHHelpers.m */; };
+		592435F5197E7BEE001A03BB /* MedicineCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435F2197E7BEE001A03BB /* MedicineCabinetViewController.m */; };
+		595B449119B0511100DDD772 /* RenewRefillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B449019B0511100DDD772 /* RenewRefillViewController.m */; };
+		599764ED1980CA06001D7EE2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EC1980CA06001D7EE2 /* MainViewController.m */; };
+		599764F01980CA3A001D7EE2 /* MenuOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EF1980CA3A001D7EE2 /* MenuOptionsViewController.m */; };
+		599764F519812039001D7EE2 /* FindCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764F419812039001D7EE2 /* FindCareViewController.m */; };
+		599AE4021991FA1F005A82E1 /* AlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4011991FA1F005A82E1 /* AlarmListViewController.m */; };
+		599AE4051991FB47005A82E1 /* SetAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4041991FB47005A82E1 /* SetAlarmViewController.m */; };
+		599D751B19E50D5700BB7C86 /* Drugs.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D751A19E50D5700BB7C86 /* Drugs.m */; };
+		599F674B199383D3004F7F4F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599F674A199383D3004F7F4F /* SettingsViewController.m */; };
+		599FDE3919A1F99A008ADC09 /* MedicineCabinetManualCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 599FDE3819A1F99A008ADC09 /* MedicineCabinetManualCell.m */; };
+		59A38BD0199223CD00A4D240 /* SelectDaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A38BCF199223CD00A4D240 /* SelectDaysViewController.m */; };
+		59A4D4BB19FF9EBC00CB6787 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BA19FF9EBC00CB6787 /* libz.dylib */; };
+		59A4D4BF19FFA15400CB6787 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BE19FFA15400CB6787 /* libGoogleAnalyticsServices.a */; };
+		59AC2C8E197F9B690097DEAB /* MedicineCabinetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */; };
+		59C453CB1A5D01F1008A3F5D /* Drugs.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D751A19E50D5700BB7C86 /* Drugs.m */; };
+		59C453CC1A5D01F1008A3F5D /* OrchardPharmacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168701A0346B000CE9201 /* OrchardPharmacyViewController.m */; };
+		59C453CD1A5D01F1008A3F5D /* EHWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B4C1A1C4CBC006227E1 /* EHWindow.m */; };
+		59C453CE1A5D01F1008A3F5D /* SelectDaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A38BCF199223CD00A4D240 /* SelectDaysViewController.m */; };
+		59C453CF1A5D01F1008A3F5D /* FrequentlyAskedQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1DF9919C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m */; };
+		59C453D01A5D01F1008A3F5D /* FindCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764F419812039001D7EE2 /* FindCareViewController.m */; };
+		59C453D11A5D01F1008A3F5D /* AlternateDrug.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA0B1A20F5BA00DD7BA4 /* AlternateDrug.m */; };
+		59C453D21A5D01F1008A3F5D /* NSString+Mobomo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80781A14A17800D8E384 /* NSString+Mobomo.m */; };
+		59C453D31A5D01F1008A3F5D /* AlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4011991FA1F005A82E1 /* AlarmListViewController.m */; };
+		59C453D41A5D01F1008A3F5D /* Faq.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B361A107717004600D1 /* Faq.m */; };
+		59C453D51A5D01F1008A3F5D /* EHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86D1F31A1DAF8300533720 /* EHOperation.m */; };
+		59C453D61A5D01F1008A3F5D /* Claims.m in Sources */ = {isa = PBXBuildFile; fileRef = C699335F1A2068E300C293A0 /* Claims.m */; };
+		59C453D71A5D01F1008A3F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDE197D0B8500C56DEA /* AppDelegate.m */; };
+		59C453D81A5D01F1008A3F5D /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE6F4E19A342A6008026A2 /* AlarmCell.m */; };
+		59C453D91A5D01F1008A3F5D /* NoDrugView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B361A1C4AD6006227E1 /* NoDrugView.m */; };
+		59C453DA1A5D01F1008A3F5D /* MedicineCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435F2197E7BEE001A03BB /* MedicineCabinetViewController.m */; };
+		59C453DB1A5D01F1008A3F5D /* MedicineCabinetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */; };
+		59C453DC1A5D01F1008A3F5D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B491A1C4CBC006227E1 /* XMLReader.m */; };
+		59C453DD1A5D01F1008A3F5D /* PharmacyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FF19A1E40C00725278 /* PharmacyDetailViewController.m */; };
+		59C453DE1A5D01F1008A3F5D /* AlternateDrug+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328B21A207B0200DECCC2 /* AlternateDrug+DAO.m */; };
+		59C453DF1A5D01F1008A3F5D /* PharmacyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FA19A1C87D00725278 /* PharmacyCellTableViewCell.m */; };
+		59C453E01A5D01F1008A3F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDA197D0B8500C56DEA /* main.m */; };
+		59C453E11A5D01F1008A3F5D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B461A1C4CBC006227E1 /* CustomTextField.m */; };
+		59C453E21A5D01F1008A3F5D /* Drugs+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA081A20E48700DD7BA4 /* Drugs+DAO.m */; };
+		59C453E31A5D01F1008A3F5D /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E44D419B6DEC900797831 /* MyCardViewController.m */; };
+		59C453E41A5D01F1008A3F5D /* CustomHTMLPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B2D1A1C4AD6006227E1 /* CustomHTMLPageView.m */; };
+		59C453E51A5D01F1008A3F5D /* DrugSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0019AD8F2300F5A26A /* DrugSavingCell.m */; };
+		59C453E61A5D01F1008A3F5D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EC1980CA06001D7EE2 /* MainViewController.m */; };
+		59C453E71A5D01F1008A3F5D /* Pharmacy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39D7DC1A08C81500DF0133 /* Pharmacy.m */; };
+		59C453E81A5D01F1008A3F5D /* EHHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435ED197E7BEE001A03BB /* EHHelpers.m */; };
+		59C453E91A5D01F1008A3F5D /* Pharmacy+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5B1A1C7028006227E1 /* Pharmacy+DAO.m */; };
+		59C453EA1A5D01F1008A3F5D /* UIButton+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806E1A14A11300D8E384 /* UIButton+CustomFont.m */; };
+		59C453EB1A5D01F1008A3F5D /* FaqTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35BADF19C2C34000AD3C66 /* FaqTableCell.m */; };
+		59C453EC1A5D01F1008A3F5D /* MenuOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EF1980CA3A001D7EE2 /* MenuOptionsViewController.m */; };
+		59C453ED1A5D01F1008A3F5D /* RenewRefillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B449019B0511100DDD772 /* RenewRefillViewController.m */; };
+		59C453EE1A5D01F1008A3F5D /* UITextField+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80721A14A11300D8E384 /* UITextField+CustomFont.m */; };
+		59C453EF1A5D01F1008A3F5D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B331A107716004600D1 /* User.m */; };
+		59C453F01A5D01F1008A3F5D /* UILabel+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80701A14A11300D8E384 /* UILabel+CustomFont.m */; };
+		59C453F11A5D01F1008A3F5D /* MedicineCabinetManualCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 599FDE3819A1F99A008ADC09 /* MedicineCabinetManualCell.m */; };
+		59C453F21A5D01F1008A3F5D /* AlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C809C1A14A9C900D8E384 /* AlertHandler.m */; };
+		59C453F31A5D01F1008A3F5D /* VenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806B1A14A11300D8E384 /* VenueAnnotation.m */; };
+		59C453F41A5D01F1008A3F5D /* InfoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B431A1C4CBC006227E1 /* InfoAlert.m */; };
+		59C453F51A5D01F1008A3F5D /* GettingStartedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B301A1C4AD6006227E1 /* GettingStartedView.m */; };
+		59C453F61A5D01F1008A3F5D /* EHLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B641A1CA2C9006227E1 /* EHLocationService.m */; };
+		59C453F71A5D01F1008A3F5D /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B331A1C4AD6006227E1 /* LoadingView.m */; };
+		59C453F81A5D01F1008A3F5D /* DetailedSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140419BEDA2C00D5A37E /* DetailedSavingCell.m */; };
+		59C453F91A5D01F1008A3F5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CF6181999FD1B00107E29 /* LoginViewController.m */; };
+		59C453FA1A5D01F1008A3F5D /* DetailedSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140119BEC8EA00D5A37E /* DetailedSavingsViewController.m */; };
+		59C453FB1A5D01F1008A3F5D /* Faq+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B581A1C54B5006227E1 /* Faq+DAO.m */; };
+		59C453FC1A5D01F1008A3F5D /* EngageHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59CC1F24197D3A130009CBA3 /* EngageHealth.xcdatamodeld */; };
+		59C453FD1A5D01F1008A3F5D /* SetAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4041991FB47005A82E1 /* SetAlarmViewController.m */; };
+		59C453FE1A5D01F1008A3F5D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE739F2F199B2E2B0038DDDC /* RegistrationViewController.m */; };
+		59C453FF1A5D01F1008A3F5D /* DrugSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0319AD8F3200F5A26A /* DrugSavingsViewController.m */; };
+		59C454001A5D01F1008A3F5D /* Claims+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328AF1A207A7000DECCC2 /* Claims+DAO.m */; };
+		59C454011A5D01F1008A3F5D /* User+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5E1A1C7200006227E1 /* User+DAO.m */; };
+		59C454021A5D01F1008A3F5D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599F674A199383D3004F7F4F /* SettingsViewController.m */; };
+		59C454031A5D01F1008A3F5D /* BenefitsSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE242D4E19B838B100241718 /* BenefitsSummaryViewController.m */; };
+		59C454041A5D01F1008A3F5D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE376B1E1A009C980016F04A /* MenuCell.m */; };
+		59C454061A5D01F1008A3F5D /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BE19FFA15400CB6787 /* libGoogleAnalyticsServices.a */; };
+		59C454071A5D01F1008A3F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BA19FF9EBC00CB6787 /* libz.dylib */; };
+		59C454081A5D01F1008A3F5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CC1F22197D39EB0009CBA3 /* CoreData.framework */; };
+		59C454091A5D01F1008A3F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD0197D0B8500C56DEA /* CoreGraphics.framework */; };
+		59C4540A1A5D01F1008A3F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD2197D0B8500C56DEA /* UIKit.framework */; };
+		59C4540B1A5D01F1008A3F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BCE197D0B8500C56DEA /* Foundation.framework */; };
+		59C4540C1A5D01F1008A3F5D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BE5F89A77F484998375CF9 /* libPods.a */; };
+		59C4540F1A5D01F1008A3F5D /* circles.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EA19BEC4B600D5A37E /* circles.m4r */; };
+		59C454101A5D01F1008A3F5D /* calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACE19BABFB100592034 /* calibri.ttf */; };
+		59C454111A5D01F1008A3F5D /* GettingStartedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B311A1C4AD6006227E1 /* GettingStartedView.xib */; };
+		59C454121A5D01F1008A3F5D /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B341A1C4AD6006227E1 /* LoadingView.xib */; };
+		59C454131A5D01F1008A3F5D /* ladder.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFD19C03C3C00449046 /* ladder.m4r */; };
+		59C454141A5D01F1008A3F5D /* calibril.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD119BABFB100592034 /* calibril.ttf */; };
+		59C454151A5D01F1008A3F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BD7197D0B8500C56DEA /* InfoPlist.strings */; };
+		59C454161A5D01F1008A3F5D /* calibrib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACF19BABFB100592034 /* calibrib.ttf */; };
+		59C454171A5D01F1008A3F5D /* calibrili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD219BABFB100592034 /* calibrili.ttf */; };
+		59C454181A5D01F1008A3F5D /* BEBAS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACD19BABFB100592034 /* BEBAS__.TTF */; };
+		59C4541A1A5D01F1008A3F5D /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE04B4D819BF0116000517DF /* Sounds.plist */; };
+		59C4541B1A5D01F1008A3F5D /* welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807C1A14A1CC00D8E384 /* welcome.html */; };
+		59C4541C1A5D01F1008A3F5D /* tiptoes.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0019C03C3C00449046 /* tiptoes.m4r */; };
+		59C4541D1A5D01F1008A3F5D /* hello.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EC19BEC4B600D5A37E /* hello.m4r */; };
+		59C4541E1A5D01F1008A3F5D /* update.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0119C03C3C00449046 /* update.m4r */; };
+		59C4541F1A5D01F1008A3F5D /* NoDrugView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B371A1C4AD6006227E1 /* NoDrugView.xib */; };
+		59C454201A5D01F1008A3F5D /* chord.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E919BEC4B600D5A37E /* chord.m4r */; };
+		59C454211A5D01F1008A3F5D /* telegraph.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFF19C03C3C00449046 /* telegraph.m4r */; };
+		59C454221A5D01F1008A3F5D /* aurora.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E719BEC4B600D5A37E /* aurora.m4r */; };
+		59C454231A5D01F1008A3F5D /* input.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013ED19BEC4B600D5A37E /* input.m4r */; };
+		59C454241A5D01F1008A3F5D /* pulse.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F119BEC4B600D5A37E /* pulse.m4r */; };
+		59C454251A5D01F1008A3F5D /* suspense.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFE19C03C3C00449046 /* suspense.m4r */; };
+		59C454261A5D01F1008A3F5D /* note.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EF19BEC4B600D5A37E /* note.m4r */; };
+		59C454271A5D01F1008A3F5D /* synth.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F219BEC4B600D5A37E /* synth.m4r */; };
+		59C454281A5D01F1008A3F5D /* anticipate.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E619BEC4B600D5A37E /* anticipate.m4r */; };
+		59C454291A5D01F1008A3F5D /* complete.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EB19BEC4B600D5A37E /* complete.m4r */; };
+		59C4542A1A5D01F1008A3F5D /* calibrii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD019BABFB100592034 /* calibrii.ttf */; };
+		59C4542B1A5D01F1008A3F5D /* keys.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EE19BEC4B600D5A37E /* keys.m4r */; };
+		59C4542C1A5D01F1008A3F5D /* GettingStarted.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807B1A14A1CC00D8E384 /* GettingStarted.html */; };
+		59C4542D1A5D01F1008A3F5D /* calibriz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD319BABFB100592034 /* calibriz.ttf */; };
+		59C4542E1A5D01F1008A3F5D /* bamboo.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E819BEC4B600D5A37E /* bamboo.m4r */; };
+		59C4542F1A5D01F1008A3F5D /* popcorn.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F019BEC4B600D5A37E /* popcorn.m4r */; };
+		59C454301A5D01F1008A3F5D /* calypso.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFC19C03C3C00449046 /* calypso.m4r */; };
+		59C454311A5D01F1008A3F5D /* CustomHTMLPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B2E1A1C4AD6006227E1 /* CustomHTMLPageView.xib */; };
+		59C454411A5D2AD0008A3F5D /* Drugs.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D751A19E50D5700BB7C86 /* Drugs.m */; };
+		59C454421A5D2AD0008A3F5D /* OrchardPharmacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168701A0346B000CE9201 /* OrchardPharmacyViewController.m */; };
+		59C454431A5D2AD0008A3F5D /* EHWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B4C1A1C4CBC006227E1 /* EHWindow.m */; };
+		59C454441A5D2AD0008A3F5D /* SelectDaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A38BCF199223CD00A4D240 /* SelectDaysViewController.m */; };
+		59C454451A5D2AD0008A3F5D /* FrequentlyAskedQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1DF9919C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m */; };
+		59C454461A5D2AD0008A3F5D /* FindCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764F419812039001D7EE2 /* FindCareViewController.m */; };
+		59C454471A5D2AD0008A3F5D /* AlternateDrug.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA0B1A20F5BA00DD7BA4 /* AlternateDrug.m */; };
+		59C454481A5D2AD0008A3F5D /* NSString+Mobomo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80781A14A17800D8E384 /* NSString+Mobomo.m */; };
+		59C454491A5D2AD0008A3F5D /* AlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4011991FA1F005A82E1 /* AlarmListViewController.m */; };
+		59C4544A1A5D2AD0008A3F5D /* Faq.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B361A107717004600D1 /* Faq.m */; };
+		59C4544B1A5D2AD0008A3F5D /* EHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86D1F31A1DAF8300533720 /* EHOperation.m */; };
+		59C4544C1A5D2AD0008A3F5D /* Claims.m in Sources */ = {isa = PBXBuildFile; fileRef = C699335F1A2068E300C293A0 /* Claims.m */; };
+		59C4544D1A5D2AD0008A3F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDE197D0B8500C56DEA /* AppDelegate.m */; };
+		59C4544E1A5D2AD0008A3F5D /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE6F4E19A342A6008026A2 /* AlarmCell.m */; };
+		59C4544F1A5D2AD0008A3F5D /* NoDrugView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B361A1C4AD6006227E1 /* NoDrugView.m */; };
+		59C454501A5D2AD0008A3F5D /* MedicineCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435F2197E7BEE001A03BB /* MedicineCabinetViewController.m */; };
+		59C454511A5D2AD0008A3F5D /* MedicineCabinetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */; };
+		59C454521A5D2AD0008A3F5D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B491A1C4CBC006227E1 /* XMLReader.m */; };
+		59C454531A5D2AD0008A3F5D /* PharmacyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FF19A1E40C00725278 /* PharmacyDetailViewController.m */; };
+		59C454541A5D2AD0008A3F5D /* AlternateDrug+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328B21A207B0200DECCC2 /* AlternateDrug+DAO.m */; };
+		59C454551A5D2AD0008A3F5D /* PharmacyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FA19A1C87D00725278 /* PharmacyCellTableViewCell.m */; };
+		59C454561A5D2AD0008A3F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDA197D0B8500C56DEA /* main.m */; };
+		59C454571A5D2AD0008A3F5D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B461A1C4CBC006227E1 /* CustomTextField.m */; };
+		59C454581A5D2AD0008A3F5D /* Drugs+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA081A20E48700DD7BA4 /* Drugs+DAO.m */; };
+		59C454591A5D2AD0008A3F5D /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E44D419B6DEC900797831 /* MyCardViewController.m */; };
+		59C4545A1A5D2AD0008A3F5D /* CustomHTMLPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B2D1A1C4AD6006227E1 /* CustomHTMLPageView.m */; };
+		59C4545B1A5D2AD0008A3F5D /* DrugSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0019AD8F2300F5A26A /* DrugSavingCell.m */; };
+		59C4545C1A5D2AD0008A3F5D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EC1980CA06001D7EE2 /* MainViewController.m */; };
+		59C4545D1A5D2AD0008A3F5D /* Pharmacy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39D7DC1A08C81500DF0133 /* Pharmacy.m */; };
+		59C4545E1A5D2AD0008A3F5D /* EHHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592435ED197E7BEE001A03BB /* EHHelpers.m */; };
+		59C4545F1A5D2AD0008A3F5D /* Pharmacy+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5B1A1C7028006227E1 /* Pharmacy+DAO.m */; };
+		59C454601A5D2AD0008A3F5D /* UIButton+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806E1A14A11300D8E384 /* UIButton+CustomFont.m */; };
+		59C454611A5D2AD0008A3F5D /* FaqTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35BADF19C2C34000AD3C66 /* FaqTableCell.m */; };
+		59C454621A5D2AD0008A3F5D /* MenuOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599764EF1980CA3A001D7EE2 /* MenuOptionsViewController.m */; };
+		59C454631A5D2AD0008A3F5D /* RenewRefillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B449019B0511100DDD772 /* RenewRefillViewController.m */; };
+		59C454641A5D2AD0008A3F5D /* UITextField+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80721A14A11300D8E384 /* UITextField+CustomFont.m */; };
+		59C454651A5D2AD0008A3F5D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B331A107716004600D1 /* User.m */; };
+		59C454661A5D2AD0008A3F5D /* UILabel+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80701A14A11300D8E384 /* UILabel+CustomFont.m */; };
+		59C454671A5D2AD0008A3F5D /* MedicineCabinetManualCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 599FDE3819A1F99A008ADC09 /* MedicineCabinetManualCell.m */; };
+		59C454681A5D2AD0008A3F5D /* AlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C809C1A14A9C900D8E384 /* AlertHandler.m */; };
+		59C454691A5D2AD0008A3F5D /* VenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806B1A14A11300D8E384 /* VenueAnnotation.m */; };
+		59C4546A1A5D2AD0008A3F5D /* InfoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B431A1C4CBC006227E1 /* InfoAlert.m */; };
+		59C4546B1A5D2AD0008A3F5D /* GettingStartedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B301A1C4AD6006227E1 /* GettingStartedView.m */; };
+		59C4546C1A5D2AD0008A3F5D /* EHLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B641A1CA2C9006227E1 /* EHLocationService.m */; };
+		59C4546D1A5D2AD0008A3F5D /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B331A1C4AD6006227E1 /* LoadingView.m */; };
+		59C4546E1A5D2AD0008A3F5D /* DetailedSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140419BEDA2C00D5A37E /* DetailedSavingCell.m */; };
+		59C4546F1A5D2AD0008A3F5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CF6181999FD1B00107E29 /* LoginViewController.m */; };
+		59C454701A5D2AD0008A3F5D /* DetailedSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140119BEC8EA00D5A37E /* DetailedSavingsViewController.m */; };
+		59C454711A5D2AD0008A3F5D /* Faq+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B581A1C54B5006227E1 /* Faq+DAO.m */; };
+		59C454721A5D2AD0008A3F5D /* EngageHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59CC1F24197D3A130009CBA3 /* EngageHealth.xcdatamodeld */; };
+		59C454731A5D2AD0008A3F5D /* SetAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AE4041991FB47005A82E1 /* SetAlarmViewController.m */; };
+		59C454741A5D2AD0008A3F5D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE739F2F199B2E2B0038DDDC /* RegistrationViewController.m */; };
+		59C454751A5D2AD0008A3F5D /* DrugSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0319AD8F3200F5A26A /* DrugSavingsViewController.m */; };
+		59C454761A5D2AD0008A3F5D /* Claims+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328AF1A207A7000DECCC2 /* Claims+DAO.m */; };
+		59C454771A5D2AD0008A3F5D /* User+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5E1A1C7200006227E1 /* User+DAO.m */; };
+		59C454781A5D2AD0008A3F5D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599F674A199383D3004F7F4F /* SettingsViewController.m */; };
+		59C454791A5D2AD0008A3F5D /* BenefitsSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE242D4E19B838B100241718 /* BenefitsSummaryViewController.m */; };
+		59C4547A1A5D2AD0008A3F5D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE376B1E1A009C980016F04A /* MenuCell.m */; };
+		59C4547C1A5D2AD0008A3F5D /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BE19FFA15400CB6787 /* libGoogleAnalyticsServices.a */; };
+		59C4547D1A5D2AD0008A3F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4D4BA19FF9EBC00CB6787 /* libz.dylib */; };
+		59C4547E1A5D2AD0008A3F5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CC1F22197D39EB0009CBA3 /* CoreData.framework */; };
+		59C4547F1A5D2AD0008A3F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD0197D0B8500C56DEA /* CoreGraphics.framework */; };
+		59C454801A5D2AD0008A3F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD2197D0B8500C56DEA /* UIKit.framework */; };
+		59C454811A5D2AD0008A3F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BCE197D0B8500C56DEA /* Foundation.framework */; };
+		59C454821A5D2AD0008A3F5D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BE5F89A77F484998375CF9 /* libPods.a */; };
+		59C454841A5D2AD0008A3F5D /* circles.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EA19BEC4B600D5A37E /* circles.m4r */; };
+		59C454851A5D2AD0008A3F5D /* calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACE19BABFB100592034 /* calibri.ttf */; };
+		59C454861A5D2AD0008A3F5D /* GettingStartedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B311A1C4AD6006227E1 /* GettingStartedView.xib */; };
+		59C454871A5D2AD0008A3F5D /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B341A1C4AD6006227E1 /* LoadingView.xib */; };
+		59C454881A5D2AD0008A3F5D /* ladder.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFD19C03C3C00449046 /* ladder.m4r */; };
+		59C454891A5D2AD0008A3F5D /* calibril.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD119BABFB100592034 /* calibril.ttf */; };
+		59C4548A1A5D2AD0008A3F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BD7197D0B8500C56DEA /* InfoPlist.strings */; };
+		59C4548B1A5D2AD0008A3F5D /* calibrib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACF19BABFB100592034 /* calibrib.ttf */; };
+		59C4548C1A5D2AD0008A3F5D /* calibrili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD219BABFB100592034 /* calibrili.ttf */; };
+		59C4548E1A5D2AD0008A3F5D /* BEBAS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACD19BABFB100592034 /* BEBAS__.TTF */; };
+		59C4548F1A5D2AD0008A3F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BE0197D0B8500C56DEA /* Main.storyboard */; };
+		59C454901A5D2AD0008A3F5D /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE04B4D819BF0116000517DF /* Sounds.plist */; };
+		59C454911A5D2AD0008A3F5D /* welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807C1A14A1CC00D8E384 /* welcome.html */; };
+		59C454921A5D2AD0008A3F5D /* tiptoes.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0019C03C3C00449046 /* tiptoes.m4r */; };
+		59C454931A5D2AD0008A3F5D /* hello.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EC19BEC4B600D5A37E /* hello.m4r */; };
+		59C454941A5D2AD0008A3F5D /* update.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0119C03C3C00449046 /* update.m4r */; };
+		59C454951A5D2AD0008A3F5D /* NoDrugView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B371A1C4AD6006227E1 /* NoDrugView.xib */; };
+		59C454961A5D2AD0008A3F5D /* chord.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E919BEC4B600D5A37E /* chord.m4r */; };
+		59C454971A5D2AD0008A3F5D /* telegraph.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFF19C03C3C00449046 /* telegraph.m4r */; };
+		59C454981A5D2AD0008A3F5D /* aurora.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E719BEC4B600D5A37E /* aurora.m4r */; };
+		59C454991A5D2AD0008A3F5D /* input.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013ED19BEC4B600D5A37E /* input.m4r */; };
+		59C4549A1A5D2AD0008A3F5D /* pulse.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F119BEC4B600D5A37E /* pulse.m4r */; };
+		59C4549B1A5D2AD0008A3F5D /* suspense.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFE19C03C3C00449046 /* suspense.m4r */; };
+		59C4549C1A5D2AD0008A3F5D /* note.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EF19BEC4B600D5A37E /* note.m4r */; };
+		59C4549D1A5D2AD0008A3F5D /* synth.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F219BEC4B600D5A37E /* synth.m4r */; };
+		59C4549E1A5D2AD0008A3F5D /* anticipate.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E619BEC4B600D5A37E /* anticipate.m4r */; };
+		59C4549F1A5D2AD0008A3F5D /* complete.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EB19BEC4B600D5A37E /* complete.m4r */; };
+		59C454A01A5D2AD0008A3F5D /* calibrii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD019BABFB100592034 /* calibrii.ttf */; };
+		59C454A11A5D2AD0008A3F5D /* keys.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EE19BEC4B600D5A37E /* keys.m4r */; };
+		59C454A21A5D2AD0008A3F5D /* GettingStarted.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807B1A14A1CC00D8E384 /* GettingStarted.html */; };
+		59C454A31A5D2AD0008A3F5D /* calibriz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD319BABFB100592034 /* calibriz.ttf */; };
+		59C454A41A5D2AD0008A3F5D /* bamboo.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E819BEC4B600D5A37E /* bamboo.m4r */; };
+		59C454A51A5D2AD0008A3F5D /* popcorn.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F019BEC4B600D5A37E /* popcorn.m4r */; };
+		59C454A61A5D2AD0008A3F5D /* calypso.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFC19C03C3C00449046 /* calypso.m4r */; };
+		59C454A71A5D2AD0008A3F5D /* CustomHTMLPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B2E1A1C4AD6006227E1 /* CustomHTMLPageView.xib */; };
+		59C454BA1A5D39F4008A3F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C454B91A5D39F4008A3F5D /* Images.xcassets */; };
+		59C454BB1A5D3B6D008A3F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BE0197D0B8500C56DEA /* Main.storyboard */; };
+		59C454BE1A5D3C4F008A3F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C454BD1A5D3C4F008A3F5D /* Images.xcassets */; };
+		59C454C11A5D3C58008A3F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C454C01A5D3C58008A3F5D /* Images.xcassets */; };
+		59C89BCF197D0B8500C56DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BCE197D0B8500C56DEA /* Foundation.framework */; };
+		59C89BD1197D0B8500C56DEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD0197D0B8500C56DEA /* CoreGraphics.framework */; };
+		59C89BD3197D0B8500C56DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD2197D0B8500C56DEA /* UIKit.framework */; };
+		59C89BD9197D0B8500C56DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BD7197D0B8500C56DEA /* InfoPlist.strings */; };
+		59C89BDB197D0B8500C56DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDA197D0B8500C56DEA /* main.m */; };
+		59C89BDF197D0B8500C56DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BDE197D0B8500C56DEA /* AppDelegate.m */; };
+		59C89BE2197D0B8500C56DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BE0197D0B8500C56DEA /* Main.storyboard */; };
+		59C89BF1197D0B8500C56DEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BF0197D0B8500C56DEA /* XCTest.framework */; };
+		59C89BF2197D0B8500C56DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BCE197D0B8500C56DEA /* Foundation.framework */; };
+		59C89BF3197D0B8500C56DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C89BD2197D0B8500C56DEA /* UIKit.framework */; };
+		59C89BFB197D0B8500C56DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59C89BF9197D0B8500C56DEA /* InfoPlist.strings */; };
+		59C89BFD197D0B8500C56DEA /* EngageHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C89BFC197D0B8500C56DEA /* EngageHealthTests.m */; };
+		59CC1F23197D39EB0009CBA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CC1F22197D39EB0009CBA3 /* CoreData.framework */; };
+		59CC1F26197D3A130009CBA3 /* EngageHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59CC1F24197D3A130009CBA3 /* EngageHealth.xcdatamodeld */; };
+		C60328B01A207A7000DECCC2 /* Claims+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328AF1A207A7000DECCC2 /* Claims+DAO.m */; };
+		C60328B31A207B0200DECCC2 /* AlternateDrug+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C60328B21A207B0200DECCC2 /* AlternateDrug+DAO.m */; };
+		C603AA091A20E48700DD7BA4 /* Drugs+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA081A20E48700DD7BA4 /* Drugs+DAO.m */; };
+		C603AA0C1A20F5BA00DD7BA4 /* AlternateDrug.m in Sources */ = {isa = PBXBuildFile; fileRef = C603AA0B1A20F5BA00DD7BA4 /* AlternateDrug.m */; };
+		C6842AD419BABFB100592034 /* BEBAS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACD19BABFB100592034 /* BEBAS__.TTF */; };
+		C6842AD519BABFB100592034 /* calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACE19BABFB100592034 /* calibri.ttf */; };
+		C6842AD619BABFB100592034 /* calibrib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842ACF19BABFB100592034 /* calibrib.ttf */; };
+		C6842AD719BABFB100592034 /* calibrii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD019BABFB100592034 /* calibrii.ttf */; };
+		C6842AD819BABFB100592034 /* calibril.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD119BABFB100592034 /* calibril.ttf */; };
+		C6842AD919BABFB100592034 /* calibrili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD219BABFB100592034 /* calibrili.ttf */; };
+		C6842ADA19BABFB100592034 /* calibriz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6842AD319BABFB100592034 /* calibriz.ttf */; };
+		C69933601A2068E300C293A0 /* Claims.m in Sources */ = {isa = PBXBuildFile; fileRef = C699335F1A2068E300C293A0 /* Claims.m */; };
+		CE04B4D919BF0116000517DF /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE04B4D819BF0116000517DF /* Sounds.plist */; };
+		CE0E44D519B6DEC900797831 /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E44D419B6DEC900797831 /* MyCardViewController.m */; };
+		CE242D4F19B838B100241718 /* BenefitsSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE242D4E19B838B100241718 /* BenefitsSummaryViewController.m */; };
+		CE35BAE019C2C34000AD3C66 /* FaqTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35BADF19C2C34000AD3C66 /* FaqTableCell.m */; };
+		CE376B1F1A009C980016F04A /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE376B1E1A009C980016F04A /* MenuCell.m */; };
+		CE39D7DD1A08C81500DF0133 /* Pharmacy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39D7DC1A08C81500DF0133 /* Pharmacy.m */; };
+		CE6D4E0219C03C3C00449046 /* calypso.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFC19C03C3C00449046 /* calypso.m4r */; };
+		CE6D4E0319C03C3C00449046 /* ladder.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFD19C03C3C00449046 /* ladder.m4r */; };
+		CE6D4E0419C03C3C00449046 /* suspense.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFE19C03C3C00449046 /* suspense.m4r */; };
+		CE6D4E0519C03C3C00449046 /* telegraph.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4DFF19C03C3C00449046 /* telegraph.m4r */; };
+		CE6D4E0619C03C3C00449046 /* tiptoes.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0019C03C3C00449046 /* tiptoes.m4r */; };
+		CE6D4E0719C03C3C00449046 /* update.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CE6D4E0119C03C3C00449046 /* update.m4r */; };
+		CE739F30199B2E2B0038DDDC /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE739F2F199B2E2B0038DDDC /* RegistrationViewController.m */; };
+		CE804B341A107716004600D1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B331A107716004600D1 /* User.m */; };
+		CE804B371A107717004600D1 /* Faq.m in Sources */ = {isa = PBXBuildFile; fileRef = CE804B361A107717004600D1 /* Faq.m */; };
+		CE85DB0119AD8F2300F5A26A /* DrugSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0019AD8F2300F5A26A /* DrugSavingCell.m */; };
+		CE85DB0419AD8F3200F5A26A /* DrugSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85DB0319AD8F3200F5A26A /* DrugSavingsViewController.m */; };
+		CE86D1F41A1DAF8300533720 /* EHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86D1F31A1DAF8300533720 /* EHOperation.m */; };
+		CE8C80731A14A11300D8E384 /* VenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806B1A14A11300D8E384 /* VenueAnnotation.m */; };
+		CE8C80741A14A11300D8E384 /* UIButton+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C806E1A14A11300D8E384 /* UIButton+CustomFont.m */; };
+		CE8C80751A14A11300D8E384 /* UILabel+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80701A14A11300D8E384 /* UILabel+CustomFont.m */; };
+		CE8C80761A14A11300D8E384 /* UITextField+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80721A14A11300D8E384 /* UITextField+CustomFont.m */; };
+		CE8C80791A14A17800D8E384 /* NSString+Mobomo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C80781A14A17800D8E384 /* NSString+Mobomo.m */; };
+		CE8C807D1A14A1CC00D8E384 /* GettingStarted.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807B1A14A1CC00D8E384 /* GettingStarted.html */; };
+		CE8C807E1A14A1CC00D8E384 /* welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8C807C1A14A1CC00D8E384 /* welcome.html */; };
+		CE8C809D1A14A9C900D8E384 /* AlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C809C1A14A9C900D8E384 /* AlertHandler.m */; };
+		CEA063FB19A1C87D00725278 /* PharmacyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FA19A1C87D00725278 /* PharmacyCellTableViewCell.m */; };
+		CEA0640019A1E40C00725278 /* PharmacyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA063FF19A1E40C00725278 /* PharmacyDetailViewController.m */; };
+		CEA1DF9A19C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1DF9919C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m */; };
+		CEC013F319BEC4B600D5A37E /* anticipate.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E619BEC4B600D5A37E /* anticipate.m4r */; };
+		CEC013F419BEC4B600D5A37E /* aurora.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E719BEC4B600D5A37E /* aurora.m4r */; };
+		CEC013F519BEC4B600D5A37E /* bamboo.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E819BEC4B600D5A37E /* bamboo.m4r */; };
+		CEC013F619BEC4B600D5A37E /* chord.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013E919BEC4B600D5A37E /* chord.m4r */; };
+		CEC013F719BEC4B600D5A37E /* circles.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EA19BEC4B600D5A37E /* circles.m4r */; };
+		CEC013F819BEC4B600D5A37E /* complete.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EB19BEC4B600D5A37E /* complete.m4r */; };
+		CEC013F919BEC4B600D5A37E /* hello.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EC19BEC4B600D5A37E /* hello.m4r */; };
+		CEC013FA19BEC4B600D5A37E /* input.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013ED19BEC4B600D5A37E /* input.m4r */; };
+		CEC013FB19BEC4B600D5A37E /* keys.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EE19BEC4B600D5A37E /* keys.m4r */; };
+		CEC013FC19BEC4B600D5A37E /* note.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013EF19BEC4B600D5A37E /* note.m4r */; };
+		CEC013FD19BEC4B600D5A37E /* popcorn.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F019BEC4B600D5A37E /* popcorn.m4r */; };
+		CEC013FE19BEC4B600D5A37E /* pulse.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F119BEC4B600D5A37E /* pulse.m4r */; };
+		CEC013FF19BEC4B600D5A37E /* synth.m4r in Resources */ = {isa = PBXBuildFile; fileRef = CEC013F219BEC4B600D5A37E /* synth.m4r */; };
+		CEC0140219BEC8EA00D5A37E /* DetailedSavingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140119BEC8EA00D5A37E /* DetailedSavingsViewController.m */; };
+		CEC0140519BEDA2C00D5A37E /* DetailedSavingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0140419BEDA2C00D5A37E /* DetailedSavingCell.m */; };
+		CECE6F4F19A342A6008026A2 /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE6F4E19A342A6008026A2 /* AlarmCell.m */; };
+		CED04B381A1C4AD6006227E1 /* CustomHTMLPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B2D1A1C4AD6006227E1 /* CustomHTMLPageView.m */; };
+		CED04B391A1C4AD6006227E1 /* CustomHTMLPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B2E1A1C4AD6006227E1 /* CustomHTMLPageView.xib */; };
+		CED04B3A1A1C4AD6006227E1 /* GettingStartedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B301A1C4AD6006227E1 /* GettingStartedView.m */; };
+		CED04B3B1A1C4AD6006227E1 /* GettingStartedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B311A1C4AD6006227E1 /* GettingStartedView.xib */; };
+		CED04B3C1A1C4AD6006227E1 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B331A1C4AD6006227E1 /* LoadingView.m */; };
+		CED04B3D1A1C4AD6006227E1 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B341A1C4AD6006227E1 /* LoadingView.xib */; };
+		CED04B3E1A1C4AD6006227E1 /* NoDrugView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B361A1C4AD6006227E1 /* NoDrugView.m */; };
+		CED04B3F1A1C4AD6006227E1 /* NoDrugView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED04B371A1C4AD6006227E1 /* NoDrugView.xib */; };
+		CED04B4D1A1C4CBC006227E1 /* InfoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B431A1C4CBC006227E1 /* InfoAlert.m */; };
+		CED04B4E1A1C4CBC006227E1 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B461A1C4CBC006227E1 /* CustomTextField.m */; };
+		CED04B4F1A1C4CBC006227E1 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B491A1C4CBC006227E1 /* XMLReader.m */; };
+		CED04B501A1C4CBC006227E1 /* EHWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B4C1A1C4CBC006227E1 /* EHWindow.m */; };
+		CED04B591A1C54B5006227E1 /* Faq+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B581A1C54B5006227E1 /* Faq+DAO.m */; };
+		CED04B5C1A1C7028006227E1 /* Pharmacy+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5B1A1C7028006227E1 /* Pharmacy+DAO.m */; };
+		CED04B5F1A1C7200006227E1 /* User+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B5E1A1C7200006227E1 /* User+DAO.m */; };
+		CED04B651A1CA2C9006227E1 /* EHLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CED04B641A1CA2C9006227E1 /* EHLocationService.m */; };
+		CEF168711A0346B000CE9201 /* OrchardPharmacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168701A0346B000CE9201 /* OrchardPharmacyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59C89BF4197D0B8500C56DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59C89BC3197D0B8500C56DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59C89BCA197D0B8500C56DEA;
+			remoteInfo = EngageHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590CF6171999FD1B00107E29 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		590CF6181999FD1B00107E29 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		592435EC197E7BEE001A03BB /* EHHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHHelpers.h; sourceTree = "<group>"; };
+		592435ED197E7BEE001A03BB /* EHHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHHelpers.m; sourceTree = "<group>"; };
+		592435F1197E7BEE001A03BB /* MedicineCabinetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCabinetViewController.h; sourceTree = "<group>"; };
+		592435F2197E7BEE001A03BB /* MedicineCabinetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineCabinetViewController.m; sourceTree = "<group>"; };
+		592435F6197E7C51001A03BB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Classes/Helpers/Constants.h; sourceTree = "<group>"; };
+		595B448F19B0511100DDD772 /* RenewRefillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewRefillViewController.h; sourceTree = "<group>"; };
+		595B449019B0511100DDD772 /* RenewRefillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewRefillViewController.m; sourceTree = "<group>"; };
+		599764EB1980CA06001D7EE2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		599764EC1980CA06001D7EE2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		599764EE1980CA3A001D7EE2 /* MenuOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuOptionsViewController.h; sourceTree = "<group>"; };
+		599764EF1980CA3A001D7EE2 /* MenuOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuOptionsViewController.m; sourceTree = "<group>"; };
+		599764F319812039001D7EE2 /* FindCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCareViewController.h; sourceTree = "<group>"; };
+		599764F419812039001D7EE2 /* FindCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCareViewController.m; sourceTree = "<group>"; };
+		599AE4001991FA1F005A82E1 /* AlarmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListViewController.h; sourceTree = "<group>"; };
+		599AE4011991FA1F005A82E1 /* AlarmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListViewController.m; sourceTree = "<group>"; };
+		599AE4031991FB47005A82E1 /* SetAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmViewController.h; sourceTree = "<group>"; };
+		599AE4041991FB47005A82E1 /* SetAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmViewController.m; sourceTree = "<group>"; };
+		599D751919E50D5700BB7C86 /* Drugs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drugs.h; sourceTree = "<group>"; };
+		599D751A19E50D5700BB7C86 /* Drugs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drugs.m; sourceTree = "<group>"; };
+		599F6749199383D3004F7F4F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		599F674A199383D3004F7F4F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		599FDE3719A1F99A008ADC09 /* MedicineCabinetManualCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCabinetManualCell.h; sourceTree = "<group>"; };
+		599FDE3819A1F99A008ADC09 /* MedicineCabinetManualCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineCabinetManualCell.m; sourceTree = "<group>"; };
+		59A38BCE199223CD00A4D240 /* SelectDaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDaysViewController.h; sourceTree = "<group>"; };
+		59A38BCF199223CD00A4D240 /* SelectDaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDaysViewController.m; sourceTree = "<group>"; };
+		59A4D4B019FF9EA000CB6787 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		59A4D4B119FF9EA000CB6787 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		59A4D4B219FF9EA000CB6787 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		59A4D4B319FF9EA000CB6787 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		59A4D4B419FF9EA000CB6787 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		59A4D4B519FF9EA000CB6787 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		59A4D4B619FF9EA000CB6787 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		59A4D4B719FF9EA000CB6787 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		59A4D4B819FF9EA000CB6787 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		59A4D4B919FF9EA000CB6787 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		59A4D4BA19FF9EBC00CB6787 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		59A4D4BC19FFA0C300CB6787 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.09/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		59A4D4BE19FFA15400CB6787 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Library/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		59AC2C8C197F9B690097DEAB /* MedicineCabinetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCabinetCell.h; sourceTree = "<group>"; };
+		59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineCabinetCell.m; sourceTree = "<group>"; };
+		59C454361A5D01F1008A3F5D /* Envisionrx copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Envisionrx copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C454371A5D01F2008A3F5D /* Envisionrx copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Envisionrx copy-Info.plist"; path = "/Users/nithin/Desktop/Mobomo/Engage/engage-envision-ios/Envisionrx copy-Info.plist"; sourceTree = "<absolute>"; };
+		59C454AC1A5D2AD0008A3F5D /* Envisionrx copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Envisionrx copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C454AD1A5D2AD0008A3F5D /* Envisionrx copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Envisionrx copy2-Info.plist"; path = "/Users/nithin/Desktop/Mobomo/Engage/engage-envision-ios/Envisionrx copy2-Info.plist"; sourceTree = "<absolute>"; };
+		59C454B91A5D39F4008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59C454BD1A5D3C4F008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59C454C01A5D3C58008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59C89BCB197D0B8500C56DEA /* Envisionrx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Envisionrx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C89BCE197D0B8500C56DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59C89BD0197D0B8500C56DEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59C89BD2197D0B8500C56DEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59C89BD6197D0B8500C56DEA /* Envisionrx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Envisionrx-Info.plist"; sourceTree = "<group>"; };
+		59C89BD8197D0B8500C56DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59C89BDA197D0B8500C56DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59C89BDC197D0B8500C56DEA /* Envisionrx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Envisionrx-Prefix.pch"; sourceTree = "<group>"; };
+		59C89BDD197D0B8500C56DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59C89BDE197D0B8500C56DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59C89BE1197D0B8500C56DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59C89BEF197D0B8500C56DEA /* EnvisionrxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvisionrxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C89BF0197D0B8500C56DEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59C89BF8197D0B8500C56DEA /* EnvisionrxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnvisionrxTests-Info.plist"; sourceTree = "<group>"; };
+		59C89BFA197D0B8500C56DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59C89BFC197D0B8500C56DEA /* EngageHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngageHealthTests.m; sourceTree = "<group>"; };
+		59CC1F22197D39EB0009CBA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		59CC1F25197D3A130009CBA3 /* EngageHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EngageHealth.xcdatamodel; sourceTree = "<group>"; };
+		B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B6BE5F89A77F484998375CF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60328AE1A207A7000DECCC2 /* Claims+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Claims+DAO.h"; sourceTree = "<group>"; };
+		C60328AF1A207A7000DECCC2 /* Claims+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Claims+DAO.m"; sourceTree = "<group>"; };
+		C60328B11A207B0200DECCC2 /* AlternateDrug+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlternateDrug+DAO.h"; sourceTree = "<group>"; };
+		C60328B21A207B0200DECCC2 /* AlternateDrug+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlternateDrug+DAO.m"; sourceTree = "<group>"; };
+		C603AA071A20E48700DD7BA4 /* Drugs+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drugs+DAO.h"; sourceTree = "<group>"; };
+		C603AA081A20E48700DD7BA4 /* Drugs+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drugs+DAO.m"; sourceTree = "<group>"; };
+		C603AA0A1A20F5BA00DD7BA4 /* AlternateDrug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlternateDrug.h; sourceTree = "<group>"; };
+		C603AA0B1A20F5BA00DD7BA4 /* AlternateDrug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlternateDrug.m; sourceTree = "<group>"; };
+		C6842ACD19BABFB100592034 /* BEBAS__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS__.TTF; sourceTree = "<group>"; };
+		C6842ACE19BABFB100592034 /* calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibri.ttf; sourceTree = "<group>"; };
+		C6842ACF19BABFB100592034 /* calibrib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibrib.ttf; sourceTree = "<group>"; };
+		C6842AD019BABFB100592034 /* calibrii.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibrii.ttf; sourceTree = "<group>"; };
+		C6842AD119BABFB100592034 /* calibril.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibril.ttf; sourceTree = "<group>"; };
+		C6842AD219BABFB100592034 /* calibrili.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibrili.ttf; sourceTree = "<group>"; };
+		C6842AD319BABFB100592034 /* calibriz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibriz.ttf; sourceTree = "<group>"; };
+		C699335E1A2068E300C293A0 /* Claims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Claims.h; sourceTree = "<group>"; };
+		C699335F1A2068E300C293A0 /* Claims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Claims.m; sourceTree = "<group>"; };
+		CE04B4D819BF0116000517DF /* Sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sounds.plist; path = Helpers/Sounds.plist; sourceTree = "<group>"; };
+		CE0E44D319B6DEC900797831 /* MyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardViewController.h; sourceTree = "<group>"; };
+		CE0E44D419B6DEC900797831 /* MyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardViewController.m; sourceTree = "<group>"; };
+		CE242D4D19B838B100241718 /* BenefitsSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenefitsSummaryViewController.h; sourceTree = "<group>"; };
+		CE242D4E19B838B100241718 /* BenefitsSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenefitsSummaryViewController.m; sourceTree = "<group>"; };
+		CE35BADE19C2C34000AD3C66 /* FaqTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaqTableCell.h; sourceTree = "<group>"; };
+		CE35BADF19C2C34000AD3C66 /* FaqTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaqTableCell.m; sourceTree = "<group>"; };
+		CE376B1D1A009C980016F04A /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		CE376B1E1A009C980016F04A /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		CE39D7DB1A08C81500DF0133 /* Pharmacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pharmacy.h; sourceTree = "<group>"; };
+		CE39D7DC1A08C81500DF0133 /* Pharmacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pharmacy.m; sourceTree = "<group>"; };
+		CE6D4DFC19C03C3C00449046 /* calypso.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = calypso.m4r; sourceTree = "<group>"; };
+		CE6D4DFD19C03C3C00449046 /* ladder.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = ladder.m4r; sourceTree = "<group>"; };
+		CE6D4DFE19C03C3C00449046 /* suspense.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = suspense.m4r; sourceTree = "<group>"; };
+		CE6D4DFF19C03C3C00449046 /* telegraph.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = telegraph.m4r; sourceTree = "<group>"; };
+		CE6D4E0019C03C3C00449046 /* tiptoes.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiptoes.m4r; sourceTree = "<group>"; };
+		CE6D4E0119C03C3C00449046 /* update.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = update.m4r; sourceTree = "<group>"; };
+		CE739F2E199B2E2B0038DDDC /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		CE739F2F199B2E2B0038DDDC /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		CE804B321A107716004600D1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CE804B331A107716004600D1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CE804B351A107717004600D1 /* Faq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faq.h; sourceTree = "<group>"; };
+		CE804B361A107717004600D1 /* Faq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faq.m; sourceTree = "<group>"; };
+		CE85DAFF19AD8F2300F5A26A /* DrugSavingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugSavingCell.h; sourceTree = "<group>"; };
+		CE85DB0019AD8F2300F5A26A /* DrugSavingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugSavingCell.m; sourceTree = "<group>"; };
+		CE85DB0219AD8F3200F5A26A /* DrugSavingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugSavingsViewController.h; sourceTree = "<group>"; };
+		CE85DB0319AD8F3200F5A26A /* DrugSavingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugSavingsViewController.m; sourceTree = "<group>"; };
+		CE86D1F21A1DAF8300533720 /* EHOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHOperation.h; sourceTree = "<group>"; };
+		CE86D1F31A1DAF8300533720 /* EHOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHOperation.m; sourceTree = "<group>"; };
+		CE8C806A1A14A11300D8E384 /* VenueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueAnnotation.h; sourceTree = "<group>"; };
+		CE8C806B1A14A11300D8E384 /* VenueAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueAnnotation.m; sourceTree = "<group>"; };
+		CE8C806D1A14A11300D8E384 /* UIButton+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomFont.h"; sourceTree = "<group>"; };
+		CE8C806E1A14A11300D8E384 /* UIButton+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomFont.m"; sourceTree = "<group>"; };
+		CE8C806F1A14A11300D8E384 /* UILabel+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CustomFont.h"; sourceTree = "<group>"; };
+		CE8C80701A14A11300D8E384 /* UILabel+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CustomFont.m"; sourceTree = "<group>"; };
+		CE8C80711A14A11300D8E384 /* UITextField+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CustomFont.h"; sourceTree = "<group>"; };
+		CE8C80721A14A11300D8E384 /* UITextField+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CustomFont.m"; sourceTree = "<group>"; };
+		CE8C80771A14A17800D8E384 /* NSString+Mobomo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Mobomo.h"; sourceTree = "<group>"; };
+		CE8C80781A14A17800D8E384 /* NSString+Mobomo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Mobomo.m"; sourceTree = "<group>"; };
+		CE8C807B1A14A1CC00D8E384 /* GettingStarted.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GettingStarted.html; sourceTree = "<group>"; };
+		CE8C807C1A14A1CC00D8E384 /* welcome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = welcome.html; sourceTree = "<group>"; };
+		CE8C809B1A14A9C900D8E384 /* AlertHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertHandler.h; sourceTree = "<group>"; };
+		CE8C809C1A14A9C900D8E384 /* AlertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHandler.m; sourceTree = "<group>"; };
+		CEA063F919A1C87D00725278 /* PharmacyCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacyCellTableViewCell.h; sourceTree = "<group>"; };
+		CEA063FA19A1C87D00725278 /* PharmacyCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyCellTableViewCell.m; sourceTree = "<group>"; };
+		CEA063FE19A1E40C00725278 /* PharmacyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacyDetailViewController.h; sourceTree = "<group>"; };
+		CEA063FF19A1E40C00725278 /* PharmacyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyDetailViewController.m; sourceTree = "<group>"; };
+		CEA1DF9819C2A85600D59A1E /* FrequentlyAskedQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequentlyAskedQuestionViewController.h; sourceTree = "<group>"; };
+		CEA1DF9919C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequentlyAskedQuestionViewController.m; sourceTree = "<group>"; };
+		CEC013E619BEC4B600D5A37E /* anticipate.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = anticipate.m4r; sourceTree = "<group>"; };
+		CEC013E719BEC4B600D5A37E /* aurora.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = aurora.m4r; sourceTree = "<group>"; };
+		CEC013E819BEC4B600D5A37E /* bamboo.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = bamboo.m4r; sourceTree = "<group>"; };
+		CEC013E919BEC4B600D5A37E /* chord.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = chord.m4r; sourceTree = "<group>"; };
+		CEC013EA19BEC4B600D5A37E /* circles.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = circles.m4r; sourceTree = "<group>"; };
+		CEC013EB19BEC4B600D5A37E /* complete.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = complete.m4r; sourceTree = "<group>"; };
+		CEC013EC19BEC4B600D5A37E /* hello.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.m4r; sourceTree = "<group>"; };
+		CEC013ED19BEC4B600D5A37E /* input.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = input.m4r; sourceTree = "<group>"; };
+		CEC013EE19BEC4B600D5A37E /* keys.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = keys.m4r; sourceTree = "<group>"; };
+		CEC013EF19BEC4B600D5A37E /* note.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = note.m4r; sourceTree = "<group>"; };
+		CEC013F019BEC4B600D5A37E /* popcorn.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = popcorn.m4r; sourceTree = "<group>"; };
+		CEC013F119BEC4B600D5A37E /* pulse.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = pulse.m4r; sourceTree = "<group>"; };
+		CEC013F219BEC4B600D5A37E /* synth.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = synth.m4r; sourceTree = "<group>"; };
+		CEC0140019BEC8EA00D5A37E /* DetailedSavingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedSavingsViewController.h; sourceTree = "<group>"; };
+		CEC0140119BEC8EA00D5A37E /* DetailedSavingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedSavingsViewController.m; sourceTree = "<group>"; };
+		CEC0140319BEDA2C00D5A37E /* DetailedSavingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedSavingCell.h; sourceTree = "<group>"; };
+		CEC0140419BEDA2C00D5A37E /* DetailedSavingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedSavingCell.m; sourceTree = "<group>"; };
+		CECE6F4D19A342A6008026A2 /* AlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmCell.h; sourceTree = "<group>"; };
+		CECE6F4E19A342A6008026A2 /* AlarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmCell.m; sourceTree = "<group>"; };
+		CED04B2C1A1C4AD6006227E1 /* CustomHTMLPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHTMLPageView.h; sourceTree = "<group>"; };
+		CED04B2D1A1C4AD6006227E1 /* CustomHTMLPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHTMLPageView.m; sourceTree = "<group>"; };
+		CED04B2E1A1C4AD6006227E1 /* CustomHTMLPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHTMLPageView.xib; sourceTree = "<group>"; };
+		CED04B2F1A1C4AD6006227E1 /* GettingStartedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GettingStartedView.h; sourceTree = "<group>"; };
+		CED04B301A1C4AD6006227E1 /* GettingStartedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GettingStartedView.m; sourceTree = "<group>"; };
+		CED04B311A1C4AD6006227E1 /* GettingStartedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GettingStartedView.xib; sourceTree = "<group>"; };
+		CED04B321A1C4AD6006227E1 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		CED04B331A1C4AD6006227E1 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		CED04B341A1C4AD6006227E1 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		CED04B351A1C4AD6006227E1 /* NoDrugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDrugView.h; sourceTree = "<group>"; };
+		CED04B361A1C4AD6006227E1 /* NoDrugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDrugView.m; sourceTree = "<group>"; };
+		CED04B371A1C4AD6006227E1 /* NoDrugView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoDrugView.xib; sourceTree = "<group>"; };
+		CED04B421A1C4CBC006227E1 /* InfoAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoAlert.h; sourceTree = "<group>"; };
+		CED04B431A1C4CBC006227E1 /* InfoAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoAlert.m; sourceTree = "<group>"; };
+		CED04B451A1C4CBC006227E1 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		CED04B461A1C4CBC006227E1 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		CED04B481A1C4CBC006227E1 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		CED04B491A1C4CBC006227E1 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		CED04B4B1A1C4CBC006227E1 /* EHWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHWindow.h; sourceTree = "<group>"; };
+		CED04B4C1A1C4CBC006227E1 /* EHWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHWindow.m; sourceTree = "<group>"; };
+		CED04B571A1C54B5006227E1 /* Faq+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Faq+DAO.h"; sourceTree = "<group>"; };
+		CED04B581A1C54B5006227E1 /* Faq+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Faq+DAO.m"; sourceTree = "<group>"; };
+		CED04B5A1A1C7028006227E1 /* Pharmacy+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pharmacy+DAO.h"; sourceTree = "<group>"; };
+		CED04B5B1A1C7028006227E1 /* Pharmacy+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pharmacy+DAO.m"; sourceTree = "<group>"; };
+		CED04B5D1A1C7200006227E1 /* User+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+DAO.h"; sourceTree = "<group>"; };
+		CED04B5E1A1C7200006227E1 /* User+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+DAO.m"; sourceTree = "<group>"; };
+		CED04B631A1CA2C9006227E1 /* EHLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHLocationService.h; sourceTree = "<group>"; };
+		CED04B641A1CA2C9006227E1 /* EHLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHLocationService.m; sourceTree = "<group>"; };
+		CED6D5931A2825D300B23E58 /* MedicineCabinetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCabinetDelegate.h; sourceTree = "<group>"; };
+		CEF1686F1A0346B000CE9201 /* OrchardPharmacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrchardPharmacyViewController.h; sourceTree = "<group>"; };
+		CEF168701A0346B000CE9201 /* OrchardPharmacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrchardPharmacyViewController.m; sourceTree = "<group>"; };
+		F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59C454051A5D01F1008A3F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C454061A5D01F1008A3F5D /* libGoogleAnalyticsServices.a in Frameworks */,
+				59C454071A5D01F1008A3F5D /* libz.dylib in Frameworks */,
+				59C454081A5D01F1008A3F5D /* CoreData.framework in Frameworks */,
+				59C454091A5D01F1008A3F5D /* CoreGraphics.framework in Frameworks */,
+				59C4540A1A5D01F1008A3F5D /* UIKit.framework in Frameworks */,
+				59C4540B1A5D01F1008A3F5D /* Foundation.framework in Frameworks */,
+				59C4540C1A5D01F1008A3F5D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C4547B1A5D2AD0008A3F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C4547C1A5D2AD0008A3F5D /* libGoogleAnalyticsServices.a in Frameworks */,
+				59C4547D1A5D2AD0008A3F5D /* libz.dylib in Frameworks */,
+				59C4547E1A5D2AD0008A3F5D /* CoreData.framework in Frameworks */,
+				59C4547F1A5D2AD0008A3F5D /* CoreGraphics.framework in Frameworks */,
+				59C454801A5D2AD0008A3F5D /* UIKit.framework in Frameworks */,
+				59C454811A5D2AD0008A3F5D /* Foundation.framework in Frameworks */,
+				59C454821A5D2AD0008A3F5D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BC8197D0B8500C56DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A4D4BF19FFA15400CB6787 /* libGoogleAnalyticsServices.a in Frameworks */,
+				59A4D4BB19FF9EBC00CB6787 /* libz.dylib in Frameworks */,
+				59CC1F23197D39EB0009CBA3 /* CoreData.framework in Frameworks */,
+				59C89BD1197D0B8500C56DEA /* CoreGraphics.framework in Frameworks */,
+				59C89BD3197D0B8500C56DEA /* UIKit.framework in Frameworks */,
+				59C89BCF197D0B8500C56DEA /* Foundation.framework in Frameworks */,
+				0B7F218180294B32A5A617CE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BEC197D0B8500C56DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C89BF1197D0B8500C56DEA /* XCTest.framework in Frameworks */,
+				59C89BF3197D0B8500C56DEA /* UIKit.framework in Frameworks */,
+				59C89BF2197D0B8500C56DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D92398A8A10505298274A12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */,
+				B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		592435EA197E7BEE001A03BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE86D1F11A1DAF6400533720 /* EHOperations */,
+				CE8C809A1A14A9C900D8E384 /* AlertManager */,
+				CE8C80691A14A11300D8E384 /* Annotation */,
+				CE8C806C1A14A11300D8E384 /* Categories */,
+				59A1BA1519AC8C1C000A7E8C /* CoreData */,
+				CED04B411A1C4CBC006227E1 /* CustomAlert */,
+				CED04B441A1C4CBC006227E1 /* CustomTextField */,
+				CED04B2B1A1C4AD6006227E1 /* CustomUIComponents */,
+				592435EB197E7BEE001A03BB /* Helpers */,
+				CED04B621A1CA2A4006227E1 /* LocationManager */,
+				CED04B471A1C4CBC006227E1 /* Parser */,
+				CED04B401A1C4B74006227E1 /* Resources */,
+				59AC2C8B197F9B690097DEAB /* TableCells */,
+				592435EE197E7BEE001A03BB /* ViewControllers */,
+				CED04B4A1A1C4CBC006227E1 /* WindowManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		592435EB197E7BEE001A03BB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				592435EC197E7BEE001A03BB /* EHHelpers.h */,
+				592435ED197E7BEE001A03BB /* EHHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		592435EE197E7BEE001A03BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				599AE4001991FA1F005A82E1 /* AlarmListViewController.h */,
+				599AE4011991FA1F005A82E1 /* AlarmListViewController.m */,
+				CE242D4D19B838B100241718 /* BenefitsSummaryViewController.h */,
+				CE242D4E19B838B100241718 /* BenefitsSummaryViewController.m */,
+				CEC0140019BEC8EA00D5A37E /* DetailedSavingsViewController.h */,
+				CEC0140119BEC8EA00D5A37E /* DetailedSavingsViewController.m */,
+				CE85DB0219AD8F3200F5A26A /* DrugSavingsViewController.h */,
+				CE85DB0319AD8F3200F5A26A /* DrugSavingsViewController.m */,
+				599764F319812039001D7EE2 /* FindCareViewController.h */,
+				599764F419812039001D7EE2 /* FindCareViewController.m */,
+				CEA1DF9819C2A85600D59A1E /* FrequentlyAskedQuestionViewController.h */,
+				CEA1DF9919C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m */,
+				590CF6171999FD1B00107E29 /* LoginViewController.h */,
+				590CF6181999FD1B00107E29 /* LoginViewController.m */,
+				599764EB1980CA06001D7EE2 /* MainViewController.h */,
+				599764EC1980CA06001D7EE2 /* MainViewController.m */,
+				592435F1197E7BEE001A03BB /* MedicineCabinetViewController.h */,
+				592435F2197E7BEE001A03BB /* MedicineCabinetViewController.m */,
+				599764EE1980CA3A001D7EE2 /* MenuOptionsViewController.h */,
+				599764EF1980CA3A001D7EE2 /* MenuOptionsViewController.m */,
+				CE0E44D319B6DEC900797831 /* MyCardViewController.h */,
+				CE0E44D419B6DEC900797831 /* MyCardViewController.m */,
+				CEF1686F1A0346B000CE9201 /* OrchardPharmacyViewController.h */,
+				CEF168701A0346B000CE9201 /* OrchardPharmacyViewController.m */,
+				CEA063FE19A1E40C00725278 /* PharmacyDetailViewController.h */,
+				CEA063FF19A1E40C00725278 /* PharmacyDetailViewController.m */,
+				CE739F2E199B2E2B0038DDDC /* RegistrationViewController.h */,
+				CE739F2F199B2E2B0038DDDC /* RegistrationViewController.m */,
+				595B448F19B0511100DDD772 /* RenewRefillViewController.h */,
+				595B449019B0511100DDD772 /* RenewRefillViewController.m */,
+				59A38BCE199223CD00A4D240 /* SelectDaysViewController.h */,
+				59A38BCF199223CD00A4D240 /* SelectDaysViewController.m */,
+				599AE4031991FB47005A82E1 /* SetAlarmViewController.h */,
+				599AE4041991FB47005A82E1 /* SetAlarmViewController.m */,
+				599F6749199383D3004F7F4F /* SettingsViewController.h */,
+				599F674A199383D3004F7F4F /* SettingsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59A1BA1519AC8C1C000A7E8C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C603AA0A1A20F5BA00DD7BA4 /* AlternateDrug.h */,
+				C603AA0B1A20F5BA00DD7BA4 /* AlternateDrug.m */,
+				C699335E1A2068E300C293A0 /* Claims.h */,
+				C60328AE1A207A7000DECCC2 /* Claims+DAO.h */,
+				C60328AF1A207A7000DECCC2 /* Claims+DAO.m */,
+				C699335F1A2068E300C293A0 /* Claims.m */,
+				CE39D7DB1A08C81500DF0133 /* Pharmacy.h */,
+				CE39D7DC1A08C81500DF0133 /* Pharmacy.m */,
+				CED04B5A1A1C7028006227E1 /* Pharmacy+DAO.h */,
+				CED04B5B1A1C7028006227E1 /* Pharmacy+DAO.m */,
+				599D751919E50D5700BB7C86 /* Drugs.h */,
+				599D751A19E50D5700BB7C86 /* Drugs.m */,
+				CE804B351A107717004600D1 /* Faq.h */,
+				CE804B361A107717004600D1 /* Faq.m */,
+				CED04B571A1C54B5006227E1 /* Faq+DAO.h */,
+				CED04B581A1C54B5006227E1 /* Faq+DAO.m */,
+				CE804B321A107716004600D1 /* User.h */,
+				CE804B331A107716004600D1 /* User.m */,
+				CED04B5D1A1C7200006227E1 /* User+DAO.h */,
+				CED04B5E1A1C7200006227E1 /* User+DAO.m */,
+				C60328B11A207B0200DECCC2 /* AlternateDrug+DAO.h */,
+				C60328B21A207B0200DECCC2 /* AlternateDrug+DAO.m */,
+				C603AA071A20E48700DD7BA4 /* Drugs+DAO.h */,
+				C603AA081A20E48700DD7BA4 /* Drugs+DAO.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		59A4D4AF19FF9EA000CB6787 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				59A4D4B019FF9EA000CB6787 /* GAI.h */,
+				59A4D4B119FF9EA000CB6787 /* GAIDictionaryBuilder.h */,
+				59A4D4B219FF9EA000CB6787 /* GAIEcommerceFields.h */,
+				59A4D4B319FF9EA000CB6787 /* GAIEcommerceProduct.h */,
+				59A4D4B419FF9EA000CB6787 /* GAIEcommerceProductAction.h */,
+				59A4D4B519FF9EA000CB6787 /* GAIEcommercePromotion.h */,
+				59A4D4B619FF9EA000CB6787 /* GAIFields.h */,
+				59A4D4B719FF9EA000CB6787 /* GAILogger.h */,
+				59A4D4B819FF9EA000CB6787 /* GAITrackedViewController.h */,
+				59A4D4B919FF9EA000CB6787 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		59AC2C8B197F9B690097DEAB /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				CE85DAFF19AD8F2300F5A26A /* DrugSavingCell.h */,
+				CE85DB0019AD8F2300F5A26A /* DrugSavingCell.m */,
+				59AC2C8C197F9B690097DEAB /* MedicineCabinetCell.h */,
+				59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */,
+				CEA063F919A1C87D00725278 /* PharmacyCellTableViewCell.h */,
+				CEA063FA19A1C87D00725278 /* PharmacyCellTableViewCell.m */,
+				599FDE3719A1F99A008ADC09 /* MedicineCabinetManualCell.h */,
+				599FDE3819A1F99A008ADC09 /* MedicineCabinetManualCell.m */,
+				CECE6F4D19A342A6008026A2 /* AlarmCell.h */,
+				CECE6F4E19A342A6008026A2 /* AlarmCell.m */,
+				CEC0140319BEDA2C00D5A37E /* DetailedSavingCell.h */,
+				CEC0140419BEDA2C00D5A37E /* DetailedSavingCell.m */,
+				CE35BADE19C2C34000AD3C66 /* FaqTableCell.h */,
+				CE35BADF19C2C34000AD3C66 /* FaqTableCell.m */,
+				CE376B1D1A009C980016F04A /* MenuCell.h */,
+				CE376B1E1A009C980016F04A /* MenuCell.m */,
+				CED6D5931A2825D300B23E58 /* MedicineCabinetDelegate.h */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		59C454B81A5D39F4008A3F5D /* Assets-EnvisionNoOptions */ = {
+			isa = PBXGroup;
+			children = (
+				59C454B91A5D39F4008A3F5D /* Images.xcassets */,
+			);
+			path = "Assets-EnvisionNoOptions";
+			sourceTree = "<group>";
+		};
+		59C454BC1A5D3C4F008A3F5D /* Assets-Envision */ = {
+			isa = PBXGroup;
+			children = (
+				59C454BD1A5D3C4F008A3F5D /* Images.xcassets */,
+			);
+			path = "Assets-Envision";
+			sourceTree = "<group>";
+		};
+		59C454BF1A5D3C58008A3F5D /* Assets-Engage */ = {
+			isa = PBXGroup;
+			children = (
+				59C454C01A5D3C58008A3F5D /* Images.xcassets */,
+			);
+			path = "Assets-Engage";
+			sourceTree = "<group>";
+		};
+		59C89BC2197D0B8500C56DEA = {
+			isa = PBXGroup;
+			children = (
+				59C89BD4197D0B8500C56DEA /* EngageHealth */,
+				59C89BF6197D0B8500C56DEA /* EngageHealthTests */,
+				59C89BCD197D0B8500C56DEA /* Frameworks */,
+				59C89BCC197D0B8500C56DEA /* Products */,
+				0D92398A8A10505298274A12 /* Pods */,
+				59C454371A5D01F2008A3F5D /* Envisionrx copy-Info.plist */,
+				59C454AD1A5D2AD0008A3F5D /* Envisionrx copy2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		59C89BCC197D0B8500C56DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59C89BCB197D0B8500C56DEA /* Envisionrx.app */,
+				59C89BEF197D0B8500C56DEA /* EnvisionrxTests.xctest */,
+				59C454361A5D01F1008A3F5D /* Envisionrx copy.app */,
+				59C454AC1A5D2AD0008A3F5D /* Envisionrx copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59C89BCD197D0B8500C56DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A4D4AF19FF9EA000CB6787 /* Library */,
+				59A4D4BE19FFA15400CB6787 /* libGoogleAnalyticsServices.a */,
+				59A4D4BC19FFA0C300CB6787 /* libGoogleAnalyticsServices.a */,
+				59A4D4BA19FF9EBC00CB6787 /* libz.dylib */,
+				59CC1F22197D39EB0009CBA3 /* CoreData.framework */,
+				59C89BCE197D0B8500C56DEA /* Foundation.framework */,
+				59C89BD0197D0B8500C56DEA /* CoreGraphics.framework */,
+				59C89BD2197D0B8500C56DEA /* UIKit.framework */,
+				59C89BF0197D0B8500C56DEA /* XCTest.framework */,
+				B6BE5F89A77F484998375CF9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59C89BD4197D0B8500C56DEA /* EngageHealth */ = {
+			isa = PBXGroup;
+			children = (
+				59CC1F24197D3A130009CBA3 /* EngageHealth.xcdatamodeld */,
+				59C89BDD197D0B8500C56DEA /* AppDelegate.h */,
+				59C89BDE197D0B8500C56DEA /* AppDelegate.m */,
+				59C89BE0197D0B8500C56DEA /* Main.storyboard */,
+				592435F6197E7C51001A03BB /* Constants.h */,
+				592435EA197E7BEE001A03BB /* Classes */,
+				59C89BD5197D0B8500C56DEA /* Supporting Files */,
+			);
+			path = EngageHealth;
+			sourceTree = "<group>";
+		};
+		59C89BD5197D0B8500C56DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59C454BF1A5D3C58008A3F5D /* Assets-Engage */,
+				59C454BC1A5D3C4F008A3F5D /* Assets-Envision */,
+				59C454B81A5D39F4008A3F5D /* Assets-EnvisionNoOptions */,
+				59C89BD6197D0B8500C56DEA /* Envisionrx-Info.plist */,
+				59C89BD7197D0B8500C56DEA /* InfoPlist.strings */,
+				59C89BDA197D0B8500C56DEA /* main.m */,
+				59C89BDC197D0B8500C56DEA /* Envisionrx-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59C89BF6197D0B8500C56DEA /* EngageHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				59C89BFC197D0B8500C56DEA /* EngageHealthTests.m */,
+				59C89BF7197D0B8500C56DEA /* Supporting Files */,
+			);
+			path = EngageHealthTests;
+			sourceTree = "<group>";
+		};
+		59C89BF7197D0B8500C56DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59C89BF8197D0B8500C56DEA /* EnvisionrxTests-Info.plist */,
+				59C89BF9197D0B8500C56DEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6842ACC19BABFB100592034 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6842ACD19BABFB100592034 /* BEBAS__.TTF */,
+				C6842ACE19BABFB100592034 /* calibri.ttf */,
+				C6842ACF19BABFB100592034 /* calibrib.ttf */,
+				C6842AD019BABFB100592034 /* calibrii.ttf */,
+				C6842AD119BABFB100592034 /* calibril.ttf */,
+				C6842AD219BABFB100592034 /* calibrili.ttf */,
+				C6842AD319BABFB100592034 /* calibriz.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE86D1F11A1DAF6400533720 /* EHOperations */ = {
+			isa = PBXGroup;
+			children = (
+				CE86D1F21A1DAF8300533720 /* EHOperation.h */,
+				CE86D1F31A1DAF8300533720 /* EHOperation.m */,
+			);
+			path = EHOperations;
+			sourceTree = "<group>";
+		};
+		CE8C80691A14A11300D8E384 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C806A1A14A11300D8E384 /* VenueAnnotation.h */,
+				CE8C806B1A14A11300D8E384 /* VenueAnnotation.m */,
+			);
+			path = Annotation;
+			sourceTree = "<group>";
+		};
+		CE8C806C1A14A11300D8E384 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C80771A14A17800D8E384 /* NSString+Mobomo.h */,
+				CE8C80781A14A17800D8E384 /* NSString+Mobomo.m */,
+				CE8C806D1A14A11300D8E384 /* UIButton+CustomFont.h */,
+				CE8C806E1A14A11300D8E384 /* UIButton+CustomFont.m */,
+				CE8C806F1A14A11300D8E384 /* UILabel+CustomFont.h */,
+				CE8C80701A14A11300D8E384 /* UILabel+CustomFont.m */,
+				CE8C80711A14A11300D8E384 /* UITextField+CustomFont.h */,
+				CE8C80721A14A11300D8E384 /* UITextField+CustomFont.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CE8C807A1A14A1CC00D8E384 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C807B1A14A1CC00D8E384 /* GettingStarted.html */,
+				CE8C807C1A14A1CC00D8E384 /* welcome.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		CE8C809A1A14A9C900D8E384 /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C809B1A14A9C900D8E384 /* AlertHandler.h */,
+				CE8C809C1A14A9C900D8E384 /* AlertHandler.m */,
+			);
+			path = AlertManager;
+			sourceTree = "<group>";
+		};
+		CEC013E419BEC4B600D5A37E /* iOS7Tones */ = {
+			isa = PBXGroup;
+			children = (
+				CEC013E519BEC4B600D5A37E /* Alerts */,
+			);
+			path = iOS7Tones;
+			sourceTree = "<group>";
+		};
+		CEC013E519BEC4B600D5A37E /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D4DFC19C03C3C00449046 /* calypso.m4r */,
+				CE6D4DFD19C03C3C00449046 /* ladder.m4r */,
+				CE6D4DFE19C03C3C00449046 /* suspense.m4r */,
+				CE6D4DFF19C03C3C00449046 /* telegraph.m4r */,
+				CE6D4E0019C03C3C00449046 /* tiptoes.m4r */,
+				CE6D4E0119C03C3C00449046 /* update.m4r */,
+				CEC013E619BEC4B600D5A37E /* anticipate.m4r */,
+				CEC013E719BEC4B600D5A37E /* aurora.m4r */,
+				CEC013E819BEC4B600D5A37E /* bamboo.m4r */,
+				CEC013E919BEC4B600D5A37E /* chord.m4r */,
+				CEC013EA19BEC4B600D5A37E /* circles.m4r */,
+				CEC013EB19BEC4B600D5A37E /* complete.m4r */,
+				CEC013EC19BEC4B600D5A37E /* hello.m4r */,
+				CEC013ED19BEC4B600D5A37E /* input.m4r */,
+				CEC013EE19BEC4B600D5A37E /* keys.m4r */,
+				CEC013EF19BEC4B600D5A37E /* note.m4r */,
+				CEC013F019BEC4B600D5A37E /* popcorn.m4r */,
+				CEC013F119BEC4B600D5A37E /* pulse.m4r */,
+				CEC013F219BEC4B600D5A37E /* synth.m4r */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		CED04B2B1A1C4AD6006227E1 /* CustomUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B2C1A1C4AD6006227E1 /* CustomHTMLPageView.h */,
+				CED04B2D1A1C4AD6006227E1 /* CustomHTMLPageView.m */,
+				CED04B2E1A1C4AD6006227E1 /* CustomHTMLPageView.xib */,
+				CED04B2F1A1C4AD6006227E1 /* GettingStartedView.h */,
+				CED04B301A1C4AD6006227E1 /* GettingStartedView.m */,
+				CED04B311A1C4AD6006227E1 /* GettingStartedView.xib */,
+				CED04B321A1C4AD6006227E1 /* LoadingView.h */,
+				CED04B331A1C4AD6006227E1 /* LoadingView.m */,
+				CED04B341A1C4AD6006227E1 /* LoadingView.xib */,
+				CED04B351A1C4AD6006227E1 /* NoDrugView.h */,
+				CED04B361A1C4AD6006227E1 /* NoDrugView.m */,
+				CED04B371A1C4AD6006227E1 /* NoDrugView.xib */,
+			);
+			path = CustomUIComponents;
+			sourceTree = "<group>";
+		};
+		CED04B401A1C4B74006227E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE04B4D819BF0116000517DF /* Sounds.plist */,
+				CEC013E419BEC4B600D5A37E /* iOS7Tones */,
+				C6842ACC19BABFB100592034 /* Fonts */,
+				CE8C807A1A14A1CC00D8E384 /* Html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CED04B411A1C4CBC006227E1 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B421A1C4CBC006227E1 /* InfoAlert.h */,
+				CED04B431A1C4CBC006227E1 /* InfoAlert.m */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		CED04B441A1C4CBC006227E1 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B451A1C4CBC006227E1 /* CustomTextField.h */,
+				CED04B461A1C4CBC006227E1 /* CustomTextField.m */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		CED04B471A1C4CBC006227E1 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B481A1C4CBC006227E1 /* XMLReader.h */,
+				CED04B491A1C4CBC006227E1 /* XMLReader.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		CED04B4A1A1C4CBC006227E1 /* WindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B4B1A1C4CBC006227E1 /* EHWindow.h */,
+				CED04B4C1A1C4CBC006227E1 /* EHWindow.m */,
+			);
+			path = WindowManager;
+			sourceTree = "<group>";
+		};
+		CED04B621A1CA2A4006227E1 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				CED04B631A1CA2C9006227E1 /* EHLocationService.h */,
+				CED04B641A1CA2C9006227E1 /* EHLocationService.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59C453C81A5D01F1008A3F5D /* EngageBrand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C454331A5D01F1008A3F5D /* Build configuration list for PBXNativeTarget "EngageBrand" */;
+			buildPhases = (
+				59C453C91A5D01F1008A3F5D /* Check Pods Manifest.lock */,
+				59C453CA1A5D01F1008A3F5D /* Sources */,
+				59C454051A5D01F1008A3F5D /* Frameworks */,
+				59C4540D1A5D01F1008A3F5D /* Resources */,
+				59C454321A5D01F1008A3F5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EngageBrand;
+			productName = EngageHealth;
+			productReference = 59C454361A5D01F1008A3F5D /* Envisionrx copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59C4543E1A5D2AD0008A3F5D /* EnvisionrxNoOptions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C454A91A5D2AD0008A3F5D /* Build configuration list for PBXNativeTarget "EnvisionrxNoOptions" */;
+			buildPhases = (
+				59C4543F1A5D2AD0008A3F5D /* Check Pods Manifest.lock */,
+				59C454401A5D2AD0008A3F5D /* Sources */,
+				59C4547B1A5D2AD0008A3F5D /* Frameworks */,
+				59C454831A5D2AD0008A3F5D /* Resources */,
+				59C454A81A5D2AD0008A3F5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnvisionrxNoOptions;
+			productName = EngageHealth;
+			productReference = 59C454AC1A5D2AD0008A3F5D /* Envisionrx copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59C89BCA197D0B8500C56DEA /* Envisionrx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C89C00197D0B8500C56DEA /* Build configuration list for PBXNativeTarget "Envisionrx" */;
+			buildPhases = (
+				53B3B4DEF6824FC99AC670F6 /* Check Pods Manifest.lock */,
+				59C89BC7197D0B8500C56DEA /* Sources */,
+				59C89BC8197D0B8500C56DEA /* Frameworks */,
+				59C89BC9197D0B8500C56DEA /* Resources */,
+				B27BD8CD73234B2C80AEBA31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Envisionrx;
+			productName = EngageHealth;
+			productReference = 59C89BCB197D0B8500C56DEA /* Envisionrx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59C89BEE197D0B8500C56DEA /* EnvisionrxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C89C03197D0B8500C56DEA /* Build configuration list for PBXNativeTarget "EnvisionrxTests" */;
+			buildPhases = (
+				59C89BEB197D0B8500C56DEA /* Sources */,
+				59C89BEC197D0B8500C56DEA /* Frameworks */,
+				59C89BED197D0B8500C56DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59C89BF5197D0B8500C56DEA /* PBXTargetDependency */,
+			);
+			name = EnvisionrxTests;
+			productName = EngageHealthTests;
+			productReference = 59C89BEF197D0B8500C56DEA /* EnvisionrxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59C89BC3197D0B8500C56DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mobomo LLC";
+				TargetAttributes = {
+					59C89BCA197D0B8500C56DEA = {
+						DevelopmentTeam = CYP9PN8233;
+					};
+					59C89BEE197D0B8500C56DEA = {
+						TestTargetID = 59C89BCA197D0B8500C56DEA;
+					};
+				};
+			};
+			buildConfigurationList = 59C89BC6197D0B8500C56DEA /* Build configuration list for PBXProject "Envisionrx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59C89BC2197D0B8500C56DEA;
+			productRefGroup = 59C89BCC197D0B8500C56DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59C89BCA197D0B8500C56DEA /* Envisionrx */,
+				59C89BEE197D0B8500C56DEA /* EnvisionrxTests */,
+				59C453C81A5D01F1008A3F5D /* EngageBrand */,
+				59C4543E1A5D2AD0008A3F5D /* EnvisionrxNoOptions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59C4540D1A5D01F1008A3F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C4540F1A5D01F1008A3F5D /* circles.m4r in Resources */,
+				59C454101A5D01F1008A3F5D /* calibri.ttf in Resources */,
+				59C454111A5D01F1008A3F5D /* GettingStartedView.xib in Resources */,
+				59C454121A5D01F1008A3F5D /* LoadingView.xib in Resources */,
+				59C454131A5D01F1008A3F5D /* ladder.m4r in Resources */,
+				59C454141A5D01F1008A3F5D /* calibril.ttf in Resources */,
+				59C454151A5D01F1008A3F5D /* InfoPlist.strings in Resources */,
+				59C454161A5D01F1008A3F5D /* calibrib.ttf in Resources */,
+				59C454171A5D01F1008A3F5D /* calibrili.ttf in Resources */,
+				59C454C11A5D3C58008A3F5D /* Images.xcassets in Resources */,
+				59C454181A5D01F1008A3F5D /* BEBAS__.TTF in Resources */,
+				59C4541A1A5D01F1008A3F5D /* Sounds.plist in Resources */,
+				59C4541B1A5D01F1008A3F5D /* welcome.html in Resources */,
+				59C4541C1A5D01F1008A3F5D /* tiptoes.m4r in Resources */,
+				59C4541D1A5D01F1008A3F5D /* hello.m4r in Resources */,
+				59C454BB1A5D3B6D008A3F5D /* Main.storyboard in Resources */,
+				59C4541E1A5D01F1008A3F5D /* update.m4r in Resources */,
+				59C4541F1A5D01F1008A3F5D /* NoDrugView.xib in Resources */,
+				59C454201A5D01F1008A3F5D /* chord.m4r in Resources */,
+				59C454211A5D01F1008A3F5D /* telegraph.m4r in Resources */,
+				59C454221A5D01F1008A3F5D /* aurora.m4r in Resources */,
+				59C454231A5D01F1008A3F5D /* input.m4r in Resources */,
+				59C454241A5D01F1008A3F5D /* pulse.m4r in Resources */,
+				59C454251A5D01F1008A3F5D /* suspense.m4r in Resources */,
+				59C454261A5D01F1008A3F5D /* note.m4r in Resources */,
+				59C454271A5D01F1008A3F5D /* synth.m4r in Resources */,
+				59C454281A5D01F1008A3F5D /* anticipate.m4r in Resources */,
+				59C454291A5D01F1008A3F5D /* complete.m4r in Resources */,
+				59C4542A1A5D01F1008A3F5D /* calibrii.ttf in Resources */,
+				59C4542B1A5D01F1008A3F5D /* keys.m4r in Resources */,
+				59C4542C1A5D01F1008A3F5D /* GettingStarted.html in Resources */,
+				59C4542D1A5D01F1008A3F5D /* calibriz.ttf in Resources */,
+				59C4542E1A5D01F1008A3F5D /* bamboo.m4r in Resources */,
+				59C4542F1A5D01F1008A3F5D /* popcorn.m4r in Resources */,
+				59C454301A5D01F1008A3F5D /* calypso.m4r in Resources */,
+				59C454311A5D01F1008A3F5D /* CustomHTMLPageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C454831A5D2AD0008A3F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C454841A5D2AD0008A3F5D /* circles.m4r in Resources */,
+				59C454851A5D2AD0008A3F5D /* calibri.ttf in Resources */,
+				59C454861A5D2AD0008A3F5D /* GettingStartedView.xib in Resources */,
+				59C454871A5D2AD0008A3F5D /* LoadingView.xib in Resources */,
+				59C454881A5D2AD0008A3F5D /* ladder.m4r in Resources */,
+				59C454891A5D2AD0008A3F5D /* calibril.ttf in Resources */,
+				59C4548A1A5D2AD0008A3F5D /* InfoPlist.strings in Resources */,
+				59C4548B1A5D2AD0008A3F5D /* calibrib.ttf in Resources */,
+				59C4548C1A5D2AD0008A3F5D /* calibrili.ttf in Resources */,
+				59C454BA1A5D39F4008A3F5D /* Images.xcassets in Resources */,
+				59C4548E1A5D2AD0008A3F5D /* BEBAS__.TTF in Resources */,
+				59C4548F1A5D2AD0008A3F5D /* Main.storyboard in Resources */,
+				59C454901A5D2AD0008A3F5D /* Sounds.plist in Resources */,
+				59C454911A5D2AD0008A3F5D /* welcome.html in Resources */,
+				59C454921A5D2AD0008A3F5D /* tiptoes.m4r in Resources */,
+				59C454931A5D2AD0008A3F5D /* hello.m4r in Resources */,
+				59C454941A5D2AD0008A3F5D /* update.m4r in Resources */,
+				59C454951A5D2AD0008A3F5D /* NoDrugView.xib in Resources */,
+				59C454961A5D2AD0008A3F5D /* chord.m4r in Resources */,
+				59C454971A5D2AD0008A3F5D /* telegraph.m4r in Resources */,
+				59C454981A5D2AD0008A3F5D /* aurora.m4r in Resources */,
+				59C454991A5D2AD0008A3F5D /* input.m4r in Resources */,
+				59C4549A1A5D2AD0008A3F5D /* pulse.m4r in Resources */,
+				59C4549B1A5D2AD0008A3F5D /* suspense.m4r in Resources */,
+				59C4549C1A5D2AD0008A3F5D /* note.m4r in Resources */,
+				59C4549D1A5D2AD0008A3F5D /* synth.m4r in Resources */,
+				59C4549E1A5D2AD0008A3F5D /* anticipate.m4r in Resources */,
+				59C4549F1A5D2AD0008A3F5D /* complete.m4r in Resources */,
+				59C454A01A5D2AD0008A3F5D /* calibrii.ttf in Resources */,
+				59C454A11A5D2AD0008A3F5D /* keys.m4r in Resources */,
+				59C454A21A5D2AD0008A3F5D /* GettingStarted.html in Resources */,
+				59C454A31A5D2AD0008A3F5D /* calibriz.ttf in Resources */,
+				59C454A41A5D2AD0008A3F5D /* bamboo.m4r in Resources */,
+				59C454A51A5D2AD0008A3F5D /* popcorn.m4r in Resources */,
+				59C454A61A5D2AD0008A3F5D /* calypso.m4r in Resources */,
+				59C454A71A5D2AD0008A3F5D /* CustomHTMLPageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BC9197D0B8500C56DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC013F719BEC4B600D5A37E /* circles.m4r in Resources */,
+				C6842AD519BABFB100592034 /* calibri.ttf in Resources */,
+				CED04B3B1A1C4AD6006227E1 /* GettingStartedView.xib in Resources */,
+				CED04B3D1A1C4AD6006227E1 /* LoadingView.xib in Resources */,
+				CE6D4E0319C03C3C00449046 /* ladder.m4r in Resources */,
+				C6842AD819BABFB100592034 /* calibril.ttf in Resources */,
+				59C89BD9197D0B8500C56DEA /* InfoPlist.strings in Resources */,
+				C6842AD619BABFB100592034 /* calibrib.ttf in Resources */,
+				C6842AD919BABFB100592034 /* calibrili.ttf in Resources */,
+				59C454BE1A5D3C4F008A3F5D /* Images.xcassets in Resources */,
+				C6842AD419BABFB100592034 /* BEBAS__.TTF in Resources */,
+				59C89BE2197D0B8500C56DEA /* Main.storyboard in Resources */,
+				CE04B4D919BF0116000517DF /* Sounds.plist in Resources */,
+				CE8C807E1A14A1CC00D8E384 /* welcome.html in Resources */,
+				CE6D4E0619C03C3C00449046 /* tiptoes.m4r in Resources */,
+				CEC013F919BEC4B600D5A37E /* hello.m4r in Resources */,
+				CE6D4E0719C03C3C00449046 /* update.m4r in Resources */,
+				CED04B3F1A1C4AD6006227E1 /* NoDrugView.xib in Resources */,
+				CEC013F619BEC4B600D5A37E /* chord.m4r in Resources */,
+				CE6D4E0519C03C3C00449046 /* telegraph.m4r in Resources */,
+				CEC013F419BEC4B600D5A37E /* aurora.m4r in Resources */,
+				CEC013FA19BEC4B600D5A37E /* input.m4r in Resources */,
+				CEC013FE19BEC4B600D5A37E /* pulse.m4r in Resources */,
+				CE6D4E0419C03C3C00449046 /* suspense.m4r in Resources */,
+				CEC013FC19BEC4B600D5A37E /* note.m4r in Resources */,
+				CEC013FF19BEC4B600D5A37E /* synth.m4r in Resources */,
+				CEC013F319BEC4B600D5A37E /* anticipate.m4r in Resources */,
+				CEC013F819BEC4B600D5A37E /* complete.m4r in Resources */,
+				C6842AD719BABFB100592034 /* calibrii.ttf in Resources */,
+				CEC013FB19BEC4B600D5A37E /* keys.m4r in Resources */,
+				CE8C807D1A14A1CC00D8E384 /* GettingStarted.html in Resources */,
+				C6842ADA19BABFB100592034 /* calibriz.ttf in Resources */,
+				CEC013F519BEC4B600D5A37E /* bamboo.m4r in Resources */,
+				CEC013FD19BEC4B600D5A37E /* popcorn.m4r in Resources */,
+				CE6D4E0219C03C3C00449046 /* calypso.m4r in Resources */,
+				CED04B391A1C4AD6006227E1 /* CustomHTMLPageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BED197D0B8500C56DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C89BFB197D0B8500C56DEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B3B4DEF6824FC99AC670F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C453C91A5D01F1008A3F5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C454321A5D01F1008A3F5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+		};
+		59C4543F1A5D2AD0008A3F5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C454A81A5D2AD0008A3F5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+		};
+		B27BD8CD73234B2C80AEBA31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59C453CA1A5D01F1008A3F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C453CB1A5D01F1008A3F5D /* Drugs.m in Sources */,
+				59C453CC1A5D01F1008A3F5D /* OrchardPharmacyViewController.m in Sources */,
+				59C453CD1A5D01F1008A3F5D /* EHWindow.m in Sources */,
+				59C453CE1A5D01F1008A3F5D /* SelectDaysViewController.m in Sources */,
+				59C453CF1A5D01F1008A3F5D /* FrequentlyAskedQuestionViewController.m in Sources */,
+				59C453D01A5D01F1008A3F5D /* FindCareViewController.m in Sources */,
+				59C453D11A5D01F1008A3F5D /* AlternateDrug.m in Sources */,
+				59C453D21A5D01F1008A3F5D /* NSString+Mobomo.m in Sources */,
+				59C453D31A5D01F1008A3F5D /* AlarmListViewController.m in Sources */,
+				59C453D41A5D01F1008A3F5D /* Faq.m in Sources */,
+				59C453D51A5D01F1008A3F5D /* EHOperation.m in Sources */,
+				59C453D61A5D01F1008A3F5D /* Claims.m in Sources */,
+				59C453D71A5D01F1008A3F5D /* AppDelegate.m in Sources */,
+				59C453D81A5D01F1008A3F5D /* AlarmCell.m in Sources */,
+				59C453D91A5D01F1008A3F5D /* NoDrugView.m in Sources */,
+				59C453DA1A5D01F1008A3F5D /* MedicineCabinetViewController.m in Sources */,
+				59C453DB1A5D01F1008A3F5D /* MedicineCabinetCell.m in Sources */,
+				59C453DC1A5D01F1008A3F5D /* XMLReader.m in Sources */,
+				59C453DD1A5D01F1008A3F5D /* PharmacyDetailViewController.m in Sources */,
+				59C453DE1A5D01F1008A3F5D /* AlternateDrug+DAO.m in Sources */,
+				59C453DF1A5D01F1008A3F5D /* PharmacyCellTableViewCell.m in Sources */,
+				59C453E01A5D01F1008A3F5D /* main.m in Sources */,
+				59C453E11A5D01F1008A3F5D /* CustomTextField.m in Sources */,
+				59C453E21A5D01F1008A3F5D /* Drugs+DAO.m in Sources */,
+				59C453E31A5D01F1008A3F5D /* MyCardViewController.m in Sources */,
+				59C453E41A5D01F1008A3F5D /* CustomHTMLPageView.m in Sources */,
+				59C453E51A5D01F1008A3F5D /* DrugSavingCell.m in Sources */,
+				59C453E61A5D01F1008A3F5D /* MainViewController.m in Sources */,
+				59C453E71A5D01F1008A3F5D /* Pharmacy.m in Sources */,
+				59C453E81A5D01F1008A3F5D /* EHHelpers.m in Sources */,
+				59C453E91A5D01F1008A3F5D /* Pharmacy+DAO.m in Sources */,
+				59C453EA1A5D01F1008A3F5D /* UIButton+CustomFont.m in Sources */,
+				59C453EB1A5D01F1008A3F5D /* FaqTableCell.m in Sources */,
+				59C453EC1A5D01F1008A3F5D /* MenuOptionsViewController.m in Sources */,
+				59C453ED1A5D01F1008A3F5D /* RenewRefillViewController.m in Sources */,
+				59C453EE1A5D01F1008A3F5D /* UITextField+CustomFont.m in Sources */,
+				59C453EF1A5D01F1008A3F5D /* User.m in Sources */,
+				59C453F01A5D01F1008A3F5D /* UILabel+CustomFont.m in Sources */,
+				59C453F11A5D01F1008A3F5D /* MedicineCabinetManualCell.m in Sources */,
+				59C453F21A5D01F1008A3F5D /* AlertHandler.m in Sources */,
+				59C453F31A5D01F1008A3F5D /* VenueAnnotation.m in Sources */,
+				59C453F41A5D01F1008A3F5D /* InfoAlert.m in Sources */,
+				59C453F51A5D01F1008A3F5D /* GettingStartedView.m in Sources */,
+				59C453F61A5D01F1008A3F5D /* EHLocationService.m in Sources */,
+				59C453F71A5D01F1008A3F5D /* LoadingView.m in Sources */,
+				59C453F81A5D01F1008A3F5D /* DetailedSavingCell.m in Sources */,
+				59C453F91A5D01F1008A3F5D /* LoginViewController.m in Sources */,
+				59C453FA1A5D01F1008A3F5D /* DetailedSavingsViewController.m in Sources */,
+				59C453FB1A5D01F1008A3F5D /* Faq+DAO.m in Sources */,
+				59C453FC1A5D01F1008A3F5D /* EngageHealth.xcdatamodeld in Sources */,
+				59C453FD1A5D01F1008A3F5D /* SetAlarmViewController.m in Sources */,
+				59C453FE1A5D01F1008A3F5D /* RegistrationViewController.m in Sources */,
+				59C453FF1A5D01F1008A3F5D /* DrugSavingsViewController.m in Sources */,
+				59C454001A5D01F1008A3F5D /* Claims+DAO.m in Sources */,
+				59C454011A5D01F1008A3F5D /* User+DAO.m in Sources */,
+				59C454021A5D01F1008A3F5D /* SettingsViewController.m in Sources */,
+				59C454031A5D01F1008A3F5D /* BenefitsSummaryViewController.m in Sources */,
+				59C454041A5D01F1008A3F5D /* MenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C454401A5D2AD0008A3F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C454411A5D2AD0008A3F5D /* Drugs.m in Sources */,
+				59C454421A5D2AD0008A3F5D /* OrchardPharmacyViewController.m in Sources */,
+				59C454431A5D2AD0008A3F5D /* EHWindow.m in Sources */,
+				59C454441A5D2AD0008A3F5D /* SelectDaysViewController.m in Sources */,
+				59C454451A5D2AD0008A3F5D /* FrequentlyAskedQuestionViewController.m in Sources */,
+				59C454461A5D2AD0008A3F5D /* FindCareViewController.m in Sources */,
+				59C454471A5D2AD0008A3F5D /* AlternateDrug.m in Sources */,
+				59C454481A5D2AD0008A3F5D /* NSString+Mobomo.m in Sources */,
+				59C454491A5D2AD0008A3F5D /* AlarmListViewController.m in Sources */,
+				59C4544A1A5D2AD0008A3F5D /* Faq.m in Sources */,
+				59C4544B1A5D2AD0008A3F5D /* EHOperation.m in Sources */,
+				59C4544C1A5D2AD0008A3F5D /* Claims.m in Sources */,
+				59C4544D1A5D2AD0008A3F5D /* AppDelegate.m in Sources */,
+				59C4544E1A5D2AD0008A3F5D /* AlarmCell.m in Sources */,
+				59C4544F1A5D2AD0008A3F5D /* NoDrugView.m in Sources */,
+				59C454501A5D2AD0008A3F5D /* MedicineCabinetViewController.m in Sources */,
+				59C454511A5D2AD0008A3F5D /* MedicineCabinetCell.m in Sources */,
+				59C454521A5D2AD0008A3F5D /* XMLReader.m in Sources */,
+				59C454531A5D2AD0008A3F5D /* PharmacyDetailViewController.m in Sources */,
+				59C454541A5D2AD0008A3F5D /* AlternateDrug+DAO.m in Sources */,
+				59C454551A5D2AD0008A3F5D /* PharmacyCellTableViewCell.m in Sources */,
+				59C454561A5D2AD0008A3F5D /* main.m in Sources */,
+				59C454571A5D2AD0008A3F5D /* CustomTextField.m in Sources */,
+				59C454581A5D2AD0008A3F5D /* Drugs+DAO.m in Sources */,
+				59C454591A5D2AD0008A3F5D /* MyCardViewController.m in Sources */,
+				59C4545A1A5D2AD0008A3F5D /* CustomHTMLPageView.m in Sources */,
+				59C4545B1A5D2AD0008A3F5D /* DrugSavingCell.m in Sources */,
+				59C4545C1A5D2AD0008A3F5D /* MainViewController.m in Sources */,
+				59C4545D1A5D2AD0008A3F5D /* Pharmacy.m in Sources */,
+				59C4545E1A5D2AD0008A3F5D /* EHHelpers.m in Sources */,
+				59C4545F1A5D2AD0008A3F5D /* Pharmacy+DAO.m in Sources */,
+				59C454601A5D2AD0008A3F5D /* UIButton+CustomFont.m in Sources */,
+				59C454611A5D2AD0008A3F5D /* FaqTableCell.m in Sources */,
+				59C454621A5D2AD0008A3F5D /* MenuOptionsViewController.m in Sources */,
+				59C454631A5D2AD0008A3F5D /* RenewRefillViewController.m in Sources */,
+				59C454641A5D2AD0008A3F5D /* UITextField+CustomFont.m in Sources */,
+				59C454651A5D2AD0008A3F5D /* User.m in Sources */,
+				59C454661A5D2AD0008A3F5D /* UILabel+CustomFont.m in Sources */,
+				59C454671A5D2AD0008A3F5D /* MedicineCabinetManualCell.m in Sources */,
+				59C454681A5D2AD0008A3F5D /* AlertHandler.m in Sources */,
+				59C454691A5D2AD0008A3F5D /* VenueAnnotation.m in Sources */,
+				59C4546A1A5D2AD0008A3F5D /* InfoAlert.m in Sources */,
+				59C4546B1A5D2AD0008A3F5D /* GettingStartedView.m in Sources */,
+				59C4546C1A5D2AD0008A3F5D /* EHLocationService.m in Sources */,
+				59C4546D1A5D2AD0008A3F5D /* LoadingView.m in Sources */,
+				59C4546E1A5D2AD0008A3F5D /* DetailedSavingCell.m in Sources */,
+				59C4546F1A5D2AD0008A3F5D /* LoginViewController.m in Sources */,
+				59C454701A5D2AD0008A3F5D /* DetailedSavingsViewController.m in Sources */,
+				59C454711A5D2AD0008A3F5D /* Faq+DAO.m in Sources */,
+				59C454721A5D2AD0008A3F5D /* EngageHealth.xcdatamodeld in Sources */,
+				59C454731A5D2AD0008A3F5D /* SetAlarmViewController.m in Sources */,
+				59C454741A5D2AD0008A3F5D /* RegistrationViewController.m in Sources */,
+				59C454751A5D2AD0008A3F5D /* DrugSavingsViewController.m in Sources */,
+				59C454761A5D2AD0008A3F5D /* Claims+DAO.m in Sources */,
+				59C454771A5D2AD0008A3F5D /* User+DAO.m in Sources */,
+				59C454781A5D2AD0008A3F5D /* SettingsViewController.m in Sources */,
+				59C454791A5D2AD0008A3F5D /* BenefitsSummaryViewController.m in Sources */,
+				59C4547A1A5D2AD0008A3F5D /* MenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BC7197D0B8500C56DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599D751B19E50D5700BB7C86 /* Drugs.m in Sources */,
+				CEF168711A0346B000CE9201 /* OrchardPharmacyViewController.m in Sources */,
+				CED04B501A1C4CBC006227E1 /* EHWindow.m in Sources */,
+				59A38BD0199223CD00A4D240 /* SelectDaysViewController.m in Sources */,
+				CEA1DF9A19C2A85600D59A1E /* FrequentlyAskedQuestionViewController.m in Sources */,
+				599764F519812039001D7EE2 /* FindCareViewController.m in Sources */,
+				C603AA0C1A20F5BA00DD7BA4 /* AlternateDrug.m in Sources */,
+				CE8C80791A14A17800D8E384 /* NSString+Mobomo.m in Sources */,
+				599AE4021991FA1F005A82E1 /* AlarmListViewController.m in Sources */,
+				CE804B371A107717004600D1 /* Faq.m in Sources */,
+				CE86D1F41A1DAF8300533720 /* EHOperation.m in Sources */,
+				C69933601A2068E300C293A0 /* Claims.m in Sources */,
+				59C89BDF197D0B8500C56DEA /* AppDelegate.m in Sources */,
+				CECE6F4F19A342A6008026A2 /* AlarmCell.m in Sources */,
+				CED04B3E1A1C4AD6006227E1 /* NoDrugView.m in Sources */,
+				592435F5197E7BEE001A03BB /* MedicineCabinetViewController.m in Sources */,
+				59AC2C8E197F9B690097DEAB /* MedicineCabinetCell.m in Sources */,
+				CED04B4F1A1C4CBC006227E1 /* XMLReader.m in Sources */,
+				CEA0640019A1E40C00725278 /* PharmacyDetailViewController.m in Sources */,
+				C60328B31A207B0200DECCC2 /* AlternateDrug+DAO.m in Sources */,
+				CEA063FB19A1C87D00725278 /* PharmacyCellTableViewCell.m in Sources */,
+				59C89BDB197D0B8500C56DEA /* main.m in Sources */,
+				CED04B4E1A1C4CBC006227E1 /* CustomTextField.m in Sources */,
+				C603AA091A20E48700DD7BA4 /* Drugs+DAO.m in Sources */,
+				CE0E44D519B6DEC900797831 /* MyCardViewController.m in Sources */,
+				CED04B381A1C4AD6006227E1 /* CustomHTMLPageView.m in Sources */,
+				CE85DB0119AD8F2300F5A26A /* DrugSavingCell.m in Sources */,
+				599764ED1980CA06001D7EE2 /* MainViewController.m in Sources */,
+				CE39D7DD1A08C81500DF0133 /* Pharmacy.m in Sources */,
+				592435F3197E7BEE001A03BB /* EHHelpers.m in Sources */,
+				CED04B5C1A1C7028006227E1 /* Pharmacy+DAO.m in Sources */,
+				CE8C80741A14A11300D8E384 /* UIButton+CustomFont.m in Sources */,
+				CE35BAE019C2C34000AD3C66 /* FaqTableCell.m in Sources */,
+				599764F01980CA3A001D7EE2 /* MenuOptionsViewController.m in Sources */,
+				595B449119B0511100DDD772 /* RenewRefillViewController.m in Sources */,
+				CE8C80761A14A11300D8E384 /* UITextField+CustomFont.m in Sources */,
+				CE804B341A107716004600D1 /* User.m in Sources */,
+				CE8C80751A14A11300D8E384 /* UILabel+CustomFont.m in Sources */,
+				599FDE3919A1F99A008ADC09 /* MedicineCabinetManualCell.m in Sources */,
+				CE8C809D1A14A9C900D8E384 /* AlertHandler.m in Sources */,
+				CE8C80731A14A11300D8E384 /* VenueAnnotation.m in Sources */,
+				CED04B4D1A1C4CBC006227E1 /* InfoAlert.m in Sources */,
+				CED04B3A1A1C4AD6006227E1 /* GettingStartedView.m in Sources */,
+				CED04B651A1CA2C9006227E1 /* EHLocationService.m in Sources */,
+				CED04B3C1A1C4AD6006227E1 /* LoadingView.m in Sources */,
+				CEC0140519BEDA2C00D5A37E /* DetailedSavingCell.m in Sources */,
+				590CF6191999FD1B00107E29 /* LoginViewController.m in Sources */,
+				CEC0140219BEC8EA00D5A37E /* DetailedSavingsViewController.m in Sources */,
+				CED04B591A1C54B5006227E1 /* Faq+DAO.m in Sources */,
+				59CC1F26197D3A130009CBA3 /* EngageHealth.xcdatamodeld in Sources */,
+				599AE4051991FB47005A82E1 /* SetAlarmViewController.m in Sources */,
+				CE739F30199B2E2B0038DDDC /* RegistrationViewController.m in Sources */,
+				CE85DB0419AD8F3200F5A26A /* DrugSavingsViewController.m in Sources */,
+				C60328B01A207A7000DECCC2 /* Claims+DAO.m in Sources */,
+				CED04B5F1A1C7200006227E1 /* User+DAO.m in Sources */,
+				599F674B199383D3004F7F4F /* SettingsViewController.m in Sources */,
+				CE242D4F19B838B100241718 /* BenefitsSummaryViewController.m in Sources */,
+				CE376B1F1A009C980016F04A /* MenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C89BEB197D0B8500C56DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C89BFD197D0B8500C56DEA /* EngageHealthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59C89BF5197D0B8500C56DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59C89BCA197D0B8500C56DEA /* Envisionrx */;
+			targetProxy = 59C89BF4197D0B8500C56DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59C89BD7197D0B8500C56DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C89BD8197D0B8500C56DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59C89BE0197D0B8500C56DEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C89BE1197D0B8500C56DEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59C89BF9197D0B8500C56DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C89BFA197D0B8500C56DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59C454341A5D01F1008A3F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "Envisionrx copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = "Envisionrx copy";
+				PROVISIONING_PROFILE = "5ac89c61-9bc7-4156-8ecb-5be376ebaf20";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59C454351A5D01F1008A3F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "Envisionrx copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = "Envisionrx copy";
+				PROVISIONING_PROFILE = "5ac89c61-9bc7-4156-8ecb-5be376ebaf20";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59C454AA1A5D2AD0008A3F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "Envisionrx copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = "Envisionrx copy";
+				PROVISIONING_PROFILE = "6be611cf-72dc-4750-8ed3-ad5e72f63913";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59C454AB1A5D2AD0008A3F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "Envisionrx copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = "Envisionrx copy";
+				PROVISIONING_PROFILE = "6be611cf-72dc-4750-8ed3-ad5e72f63913";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59C89BFE197D0B8500C56DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6be611cf-72dc-4750-8ed3-ad5e72f63913";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59C89BFF197D0B8500C56DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "6be611cf-72dc-4750-8ed3-ad5e72f63913";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59C89C01197D0B8500C56DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "EngageHealth/Envisionrx-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = Envisionrx;
+				PROVISIONING_PROFILE = "5ac89c61-9bc7-4156-8ecb-5be376ebaf20";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59C89C02197D0B8500C56DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobomo, LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "EngageHealth/Envisionrx-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nithin/Downloads/GoogleAnalyticsServicesiOS_3.09,
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				PRODUCT_NAME = Envisionrx;
+				PROVISIONING_PROFILE = "5ac89c61-9bc7-4156-8ecb-5be376ebaf20";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59C89C04197D0B8500C56DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9376B186FA7B8A62CD125F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Envisionrx.app/Envisionrx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EngageHealthTests/EnvisionrxTests-Info.plist";
+				PRODUCT_NAME = EnvisionrxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		59C89C05197D0B8500C56DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FE36B88A8AFF30D764E15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Envisionrx.app/Envisionrx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngageHealth/Envisionrx-Prefix.pch";
+				INFOPLIST_FILE = "EngageHealthTests/EnvisionrxTests-Info.plist";
+				PRODUCT_NAME = EnvisionrxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59C454331A5D01F1008A3F5D /* Build configuration list for PBXNativeTarget "EngageBrand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C454341A5D01F1008A3F5D /* Debug */,
+				59C454351A5D01F1008A3F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C454A91A5D2AD0008A3F5D /* Build configuration list for PBXNativeTarget "EnvisionrxNoOptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C454AA1A5D2AD0008A3F5D /* Debug */,
+				59C454AB1A5D2AD0008A3F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C89BC6197D0B8500C56DEA /* Build configuration list for PBXProject "Envisionrx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C89BFE197D0B8500C56DEA /* Debug */,
+				59C89BFF197D0B8500C56DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C89C00197D0B8500C56DEA /* Build configuration list for PBXNativeTarget "Envisionrx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C89C01197D0B8500C56DEA /* Debug */,
+				59C89C02197D0B8500C56DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C89C03197D0B8500C56DEA /* Build configuration list for PBXNativeTarget "EnvisionrxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C89C04197D0B8500C56DEA /* Debug */,
+				59C89C05197D0B8500C56DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59CC1F24197D3A130009CBA3 /* EngageHealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59CC1F25197D3A130009CBA3 /* EngageHealth.xcdatamodel */,
+			);
+			currentVersion = 59CC1F25197D3A130009CBA3 /* EngageHealth.xcdatamodel */;
+			path = EngageHealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59C89BC3197D0B8500C56DEA /* Project object */;
+}
