@@ -371,9 +371,7 @@
 		59AC2C8C197F9B690097DEAB /* MedicineCabinetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCabinetCell.h; sourceTree = "<group>"; };
 		59AC2C8D197F9B690097DEAB /* MedicineCabinetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineCabinetCell.m; sourceTree = "<group>"; };
 		59C454361A5D01F1008A3F5D /* Envisionrx copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Envisionrx copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C454371A5D01F2008A3F5D /* Envisionrx copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Envisionrx copy-Info.plist"; path = "/Users/nithin/Desktop/Mobomo/Engage/engage-envision-ios/Envisionrx copy-Info.plist"; sourceTree = "<absolute>"; };
 		59C454AC1A5D2AD0008A3F5D /* Envisionrx copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Envisionrx copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C454AD1A5D2AD0008A3F5D /* Envisionrx copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Envisionrx copy2-Info.plist"; path = "/Users/nithin/Desktop/Mobomo/Engage/engage-envision-ios/Envisionrx copy2-Info.plist"; sourceTree = "<absolute>"; };
 		59C454B91A5D39F4008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59C454BD1A5D3C4F008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59C454C01A5D3C58008A3F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -759,8 +757,6 @@
 				59C89BCD197D0B8500C56DEA /* Frameworks */,
 				59C89BCC197D0B8500C56DEA /* Products */,
 				0D92398A8A10505298274A12 /* Pods */,
-				59C454371A5D01F2008A3F5D /* Envisionrx copy-Info.plist */,
-				59C454AD1A5D2AD0008A3F5D /* Envisionrx copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
